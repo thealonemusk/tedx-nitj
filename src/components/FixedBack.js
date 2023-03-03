@@ -1,22 +1,24 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+import gsap from 'gsap';
+import {ScrollTrigger} from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 export const FixedBack = () => {
-  const [mass, setMass] = useState(0);
-  useEffect(() => {
-    const onScroll = () => {
-      setMass(Math.min(20, 1 + 0.005 * this.scrollTop()));
-    }
+const fixedHeading = useRef(null);
+useEffect(()=> {
+  const el = fixedHeading.current;
+  gsap.fromTo(el , {fontSize : 40}, {fontSize: 80, duration: 8, scrollTrigger:{
+    trigger: el,
+    scrub: true,
 
-    window.addEventListener("scroll", onScroll);
-
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [])
+  }})
+},[])
   const mystyle = {
     color: "white",
     fontWeight: "900",
     letterSpacing: "-1px",
     fontFamily: "HelveticaNeueLTStd,sans-serif",
-    fontSize: "5vw",
+    fontSize: "40",
     // position: "fixed",
    
    
@@ -27,7 +29,7 @@ export const FixedBack = () => {
     <div className='fixedBack'>
       {/* <div className='fixedBack__none'></div> */}
       <div className='fixedBack__heading'>
-        <h1 style={mystyle}>REVERBERATED '23</h1>
+        <h1 style={mystyle} ref={fixedHeading}>REVERBERATED '23</h1>
       </div>
     </div>
   )
