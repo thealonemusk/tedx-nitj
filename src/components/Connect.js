@@ -6,7 +6,7 @@ export const Connect = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["ideas", "lorem", "ipsum"];
     const period = 2000;
 
     useEffect(() => {
@@ -42,14 +42,14 @@ export const Connect = () => {
         }
     }
     return (
-        <div className='connect'>
-            <div className='connect__left'>
+        <div className='connect row'>
+            <div className='col-md-6 connect__left'>
                 <h1 className='connect__left_staticText'>We cultivate</h1>
                 <h1>
                     <span>
                         <TypeWriterEffect
                             textStyle={{
-                                fontFamily: 'Roboto, sans-serif',
+                                fontFamily: 'Baloo Paaji 2, cursive',
                                 color: '#E62B1E',
                                 fontWeight: 800,
                                 fontSize: '1.2em',
@@ -70,11 +70,12 @@ export const Connect = () => {
                     </span>
                 </h1>
             </div>
-            <div className='connect__right'>
+            <div className='col-md-6 connect__right'>
                 <p className='connect__right_text'>Be the first to hear about our upcoming events, early bird ticket sales and ideas worth sharing. Sign Up</p>
-                <div className='email__section'>
-                    <input type="email" placeholder="Enter your email" />
-                    <button>INSPIRE ME</button>
+                <div className='email__section row'>
+                    <input type="email " class="col-md-6 col-sm-12 " placeholder="Enter your email" />
+                
+                    <button type="button" class="btn btn-danger btn-lg col-md-6 col-sm-12">INSPIRE ME</button>
                 </div>
 
             </div>

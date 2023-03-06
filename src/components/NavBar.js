@@ -30,7 +30,7 @@ export const NavBar = () => {
   }
 
   return (
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           {/* <Navbar.Brand href="/">
             <img src={logo} alt="Logo" />
@@ -44,7 +44,7 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="conf" className={activeLink === 'conf' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('conf')}>Conferences</Nav.Link>
-              <Nav.Link href="#sponsors" className={activeLink === 'sponsors' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('sponsors')}>Sponsors</Nav.Link>
+              <Nav.Link href="sponsors" className={activeLink === 'sponsors' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('sponsors')}>Sponsors</Nav.Link>
               <Nav.Link href="gallery" className={activeLink === 'gallery' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('gallery')}>Gallery</Nav.Link>
               <Nav.Link href="team" className={activeLink === 'team' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('team')} >Our Team</Nav.Link>
               <Nav.Link href="involve" className={activeLink === 'involve' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('involve')}>Get Involved</Nav.Link>

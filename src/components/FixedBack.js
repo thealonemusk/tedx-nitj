@@ -7,9 +7,12 @@ export const FixedBack = () => {
 const fixedHeading = useRef(null);
 useEffect(()=> {
   const el = fixedHeading.current;
-  gsap.fromTo(el , {fontSize : 40}, {fontSize: 80, duration: 8, scrollTrigger:{
+  gsap.fromTo(el , {fontSize : 40}, {fontSize: 100,duration: 2, scrollTrigger:{
+    // start: "top center",
     trigger: el,
+
     scrub: true,
+    // markers: true,
 
   }})
 },[])
@@ -19,6 +22,7 @@ useEffect(()=> {
     letterSpacing: "-1px",
     fontFamily: "HelveticaNeueLTStd,sans-serif",
     fontSize: "40",
+    textAlign: "left"
     // position: "fixed",
    
    
@@ -28,8 +32,14 @@ useEffect(()=> {
   return (
     <div className='fixedBack'>
       {/* <div className='fixedBack__none'></div> */}
-      <div className='fixedBack__heading'>
+      {/* <div className='fixedBack__heading'>
         <h1 style={mystyle} ref={fixedHeading}>REVERBERATED '23</h1>
+      </div> */}
+      <div className='heading__mobile'>
+        <h1 ref={fixedHeading}>REVER</h1>
+        <h1>BERA</h1>
+        <h1>TED </h1>
+        <h1>2023</h1>
       </div>
     </div>
   )

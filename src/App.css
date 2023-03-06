@@ -87,18 +87,20 @@ p.danger {
 
 /************ Navbar Css ************/
 nav.navbar {
-  padding: 18px 0;
+  /* padding: 18px 0; */
   position: sticky;
   width: 100vw;
   top: 0;
   /* border: 2px solid white; */
+  margin-bottom: 0;
   z-index: 9999;
+  /* border: 2px solid wheat; */
   transition: 0.32s ease-in-out;
 }
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: rgb(9, 9, 6);
+  background-color: black;
 }
 
 nav.navbar a.navbar-brand {
@@ -110,6 +112,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 25px 25px;
+  margin-bottom: 0px;
   font-size: 18px;
   opacity: 0.75;
 }
@@ -190,20 +193,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner__left {
-  padding: 20px;
-  flex: 0.5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+padding: 20px;
+text-align: left;
 }
 
 .banner__left p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1.5;
   padding: 20px;
 }
 
 .banner__right {
-  flex: 0.5;
+  /* margin: 20px; */
+  /* padding: 50px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,36 +254,52 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .fixedBack {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: flex-end;
   height: 100vh;
   width: 100vw;
-  background-image: url(https://tedx.amsterdam/wp-content/uploads/speakesr_divider.jpg);
+  background: url(https://tedx.amsterdam/wp-content/uploads/speakesr_divider.jpg) no-repeat center center/cover;
   background-color: #000;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  /* border: 2px solid orange; */
+
   background-attachment: fixed;
 }
 
 
-.fixedBack__heading {
+/* .fixedBack__heading {
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+ 
+} */
+/* .heading__mobile{
+  display: none;
+} */
+.heading__mobile h1{
+  color: white;
+  font-size: 4rem;
+  font-family: "HelveticaNeueLTStd", sans-serif;
+  font-weight: 900;
 }
+.heading__mobile h1:nth-child(3){
+  color: #E62B1E;
+}
+
 
 /************ Theme Css ************/
 
 .theme__page {
   background-color: black;
-  display: flex;
+  /* display: flex; */
+  /* border: 2px solid blue; */
   /* border: 1px solid green; */
-  align-items: center;
+  /* padding: 100px; */
+  /* align-items: center;
   height: 100vh;
-  width: 100vw;
-  justify-content: space-between;
+  width: 100vw; */
+  /* padding-top: 200px; */
+  /* justify-content: space-between; */
   /* margin-left: 30px; */
 }
 
@@ -311,51 +330,108 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: -1px;
 }
 
-.theme__animation {
-  width: 80%;
-  height: 80%;
-  background-color: white;
-}
-.theme__text{
-  width: 80%;
-  height: 80%;
-  display: flex;
-  align-items: center;
 
+
+
+.sidenav {
+  /* height: 100%; */
+  background-color: white;
+  /* border: 2px solid red; */
+  /* overflow-x: hidden; */
+  /* margin: 50px; */
+  /* padding: 100px; */
 }
-.theme__text p {
+
+
+.main {
+  /* padding: 0px 10px; */
+  padding: 10px;
+  border-left: 2px solid red;
+  height: 100%;
+}
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+} */
+
+/* @media screen and (max-width: 450px) {
+  .theme-text{
+      margin-top: 10%;
+  }
+
+  .register-form{
+      margin-top: 10%;
+  }
+} */
+
+/* @media screen and (min-width: 768px){
   
-  /* padding: 30px; */
-  color: hsla(0, 0%, 100%, .705);
-  font-size: 22px;
-  bottom: 45px;
-  letter-spacing: 1px;
-  line-height: 28px;
-  padding: 20px;
+
+  .sidenav{
+    border: 2px solid white;
+      width: 40%;
+     
+   
+  }
+
+  .theme-text{
+      margin-top: 80%;
+  }
+
+  .register-form{
+      margin-top: 20%;
+  }
+} */
+
+.theme-text{
+  font-size: large;
+  /* display: flex; */
+  /* border: 2px solid orange; */
+  background-color: #000;
+  /* height: 100%; */
+  /* align-items: center; */
+  color: gray;
+  /* padding: 10px; */
+  /* border-left: 2px solid red; */
+}
+.login-main-text{
+  /* margin-top: 20%; */
+  /* padding: 60px; */
+  color: #fff;
+}
+
+/* .login-main-text h2{
+  font-weight: 300;
+} */
+
+.btn-black{
+  background-color: #000 !important;
+  color: #fff;
 }
 
 /************ About Css ************/
 
 .about__page {
-  display: flex;
-  width: 100vw;
-  height: 120vh;
+  /* width: 100vw; */
+  /* height: 120vh; */
   /* border: 1px solid red; */
   background-color: white;
   color: black;
+  /* margin-top: 100px; */
   /* /* align-items: center; */
-
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: space-between;
+  align-items: center; */
 }
 
 .about__us {
-  width: 20%;
+  /* width: 20%;
   height: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end; */
   /* border:1px solid black; */
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   /* transform: rotate(-90deg); */
   /* width: 100%; */
   /* height: 100%; */
@@ -382,16 +458,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .about {
-  width: 80%;
-  height: 100%;
-  display: flex;
-  align-items: center;
+  /* width: 80%; */
+  /* height: 100%; */
+  /* display: flex;
+  align-items: center; */
   /* border: 1px solid black; */
+  /* height: 100vh; */
+  /* display: flex;
+  align-items: center; */
+  /* margin-top: 100px; */
 }
 
 .about__blocks {
-  height: fit-content;
-  display: flex;
+  /* height: fit-content; */
+  padding: 30px;
+  background-color: #fff;
+  /* border: 2px solid red; */
+  /* margin-top: 50px; */
+  /* display: flex; */
   /* border: 1px solid black; */
 
 }
@@ -402,20 +486,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .about__ted {
   font-size: large;
-  padding: 30px;
+  padding: 50px;
 }
 
-.about__tedx {
-  font-size: large;
-  padding: 30px;
+.theme__page{
+  /* border: 10px solid red; */
 }
-
-.about__tedxNitj {
-  font-size: large;
-  margin-right: 20px;
-  padding: 30px;
-}
-
 .about_heading {
   text-align: center;
   font-family: "HelveticaNeueLTStd", Sans-serif;
@@ -454,24 +530,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Connect Css ************/
 .connect {
-  display: flex;
+  /* display: flex;
   align-items: center;
   background-color: #000;
-  justify-content: space-between;
+  justify-content: space-between; */
   /* border-bottom: 0.01px solid lightgray; */
+  padding: 50px;
   /* box-shadow: 2px white; */
+  background-color: #000;
 }
 
 .connect__left {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* border: 1px solid red; */
+  align-items: flex-start; 
+  justify-content: center;
   /* padding-left: 50px; */
   /* border: 2px solid red; */
   padding: 20px;
-  flex: 0.5;
+  /* flex: 0.5; */
 }
+ @media screen and (max-width: 765px) {
+  .connect__left {align-items: center; }
+} 
+
 
 /* .connect__left_staticText{
   position: relative;
@@ -480,88 +564,81 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .connect__left_dynamicText {
   font-weight: 800;
   color: #E62B1E;
+  font-family: 'Baloo Paaji 2', cursive ;
 }
 
 .connect__right {
   /* padding: 100px; */
   font-size: small;
   padding: 30px;
+  padding-left: 0px;
   /* border: 2px solid red; */
-  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex: 0.5; */
   /* justify-content: space-between; */
 }
-
+/* .connect__right > p{
+  margin-left: 0px;
+} */
 .connect__right_text {
   color: darkgray;
   /* border: 2px solid green; */
   padding: 20px;
-  margin: 0;
+  /* margin: 0; */
+  /* border: 2px solid red; */
   font-size: x-large;
 }
 
 .email__section {
-  display: flex;
+  /* display: flex; */
   padding: 20px;
-  width: 100%;
-  justify-content: space-between;
+  /* width: 100%; */
+  /* justify-content: space-between; */
 }
 
 .email__section input {
   padding: 10px;
+  /* margin: 10px; */
+  font-size: large;
   color: white;
   background-color: black;
   box-shadow: #000;
-  flex: 0.45;
+  /* flex: 0.45; */
+}
+.connect__left_staticText{
+  font-family: 'Baloo Paaji 2', cursive ;
 }
 
 .email__section button {
+  /* margin-top: 2px; */
+  /* height: 20%; */
   background-color: #E62B1E;
   color: black;
-  flex: 0.45;
+  /* flex: 0.45; */
 }
 
 .email__section button:hover {
+  background-color: red;
   box-shadow: 5px 10px 8px #888888;
 
 }
 
 /************ Footer Css ************/
 /************ Footer Css ************/
-.footer {
-  /* background-image: linear-gradient(to bottom right, #E62B1E, #111111); */
+.foot{
   background-color: #111111;
-  display: flex;
-  align-items: center;
-  /* border: 2px solid green; */
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding: 50px;
 }
 
-/* .footer img {
-  width: 26%;
-} */
-.footer h1 {
-  color: #777777;
-  font-size: 30px;
-}
 
-.footer p {
-  font-weight: 400;
-  font-size: 16px;
-  color: #B8B8B8;
-  letter-spacing: 0.5px;
-  /* margin-top: 20px; */
-}
 
-.footer_license {
-  /* border: 2px solid red; */
-  padding-left: 10px;
-  flex: 0.2;
-}
+
 
 .social-icon {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   /* margin-left: 14px; */
 }
 
@@ -603,46 +680,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
-.footer_followers {
-  /* border: 2px solid red; */
-  flex: 0.2;
-}
 
-.footer_followers p a {
-  text-decoration: none;
-  color: #B8B8B8;
 
-}
 
-.footer_followers p a:hover {
-  /* text-decoration: none; */
-  color: rgb(221, 53, 42);
 
-}
 
-.footer_contactUs {
-  /* border: 2px solid red; */
-  flex: 0.2;
-}
 
-.footer_contactUs .social-icon a {
-  /* justify-content: space-evenly; */
-  margin-top: 25px;
-  margin-right: 25px;
-}
 
-.footer_contactUs h1 {
-  margin-bottom: 20px;
-  /* border: 2px solid red; */
-}
 
-.footer_Map {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  /* border: 2px solid red; */
-  flex: 0.4;
-}
 
 .copyright {
   background-color: #111111;
@@ -660,6 +705,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* margin-top: 20px; */
 }
 /* Team Card */
+.team__card{
+  width: 100vw;
+  /* margin: 20px; */
+  margin: 0;
+  padding: 20px;
+  flex-wrap: wrap;
+  background: url("https://images.squarespace-cdn.com/content/v1/5ad8bb4fda02bcba75a55623/1525047504723-OV37BD4RED7H5I9IKHJ2/TEDxLogo_Swoop.png?format=2500w");
+}
 .profile{
   /* opacity: 0.75; */
   width: 300px;
@@ -669,20 +722,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: url('https://t3.ftcdn.net/jpg/03/97/85/42/360_F_397854228_zz5opDirIXiSjAlcEs581MYcEghYzxeo.jpg') no-repeat center center/cover;
   display: grid;
   justify-content: center;
+  margin: 20px;
   align-content: center;
   transition: 0.5s;
-  margin: 10px;
   /* z-index: 1000; */
 }
 .pro_img{
   width: 220px;
   height: 220px;
   position: relative;
-  border: 5px solid #fff;
+  border: 2px solid #000;
   border-radius: 50%;
   transition: 0.5s;
   transition-delay: 0.5s;
   z-index: 10;
+}
+
+.pos{
+  color: white;
+}
+.makeitred{
+  color: red;
 }
 .dtl{
   position: absolute;
@@ -696,14 +756,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 25px;
   text-align: center;
   margin-top: 30px;
-  color: black;
+  display: none;
+  /* color: white; */
 }
 .bio{
   font-family: 'Baloo Paaji 2', cursive ;
   font-size: 20px;
   text-align: center;
   margin-top: 5px;
-  color: black;
+  display: none;
+  /* color: white; */
 }
 .social{
   z-index: 1;
@@ -740,15 +802,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 380px;
 }
 .profile:hover .pro_img{
+  border-color: #AEAEAE;
   border-radius: 17px;
   margin-top: -230px;
 }
 .profile:hover .dtl{
   top: 50%;
 }
-.team__card{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+.profile:hover .name{
+  /* transition: 0.5s; */
+  display: block;
+  color: #000;
 }
+.profile:hover .bio{
+  display: block;
+  color: #000;
+}
+.team__card{
+  
+}
+
+/* Gallery */
