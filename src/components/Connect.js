@@ -54,7 +54,7 @@ export const Connect = () => {
                                 fontWeight: 800,
                                 fontSize: '1.2em',
                             }}
-                            startDelay={2000}
+                            startDelay={0}
                             cursorColor="#E62B1E"
                             multiText={[
                                 'ideas',
