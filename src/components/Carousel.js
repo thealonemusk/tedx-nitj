@@ -64,35 +64,21 @@ export const Carousel = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img src="" alt="img1" />
+                        <img src="https://tedxwinterpark.com/wp-content/uploads/2020/05/TEDxEvento-682b9876.jpg" alt="img1" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="" alt="img2" />
+                        <img src="https://cdn.dribbble.com/users/2302505/screenshots/6128239/tedx1.png?compress=1&resize=400x300" alt="img2" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="" alt="img3" />
+                        <img src="https://www.ideasonstage.com/tedx-speaker-guide/tedx-speaker.jpg" alt="img3" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="" alt="img4" />
+                        <img src="https://metro.co.uk/wp-content/uploads/2018/03/miranda-kane-2.jpg?quality=90&strip=all&zoom=1&resize=480%2C304" alt="img4" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="" alt="img5" />
+                        <img src="https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1365,w_2047,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/4670094012_839157263b_k_ypqmfm.jpg" alt="img5" />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="" alt="img6" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="" alt="img7" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="" alt="img8" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="" alt="img9" />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="" alt="img10" />
-                    </SwiperSlide>
+                    
                 </Swiper>
 
             </div>

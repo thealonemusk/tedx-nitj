@@ -3,14 +3,19 @@ import Carousel from 'react-bootstrap/Carousel';
 export const MainTheme = () => {
     return (
         <div className='maintheme row justify-content-center'>
-            
-                <div className='maintheme__right col-md-6 col-sm-12 align-self-center text-center'>
-                    
-                    <h1>Theme : Reverbera<span className='makeitred'>TED</span></h1>
-                    <h1>Lorem Ipsum dolor</h1>
-                    <h1>Date: 15th April 2023</h1>
+
+            <div className='maintheme__right col-md-6 col-sm-12 align-self-center'>
+                <div className='inside'>
+                    <div>
+                        <h1>Theme : Reverbera<span className='makeitred'>TED</span></h1>
+                        <h3>Lorem Ipsum dolor</h3>
+                        <h3>Date: 15th April 2023</h3>
+                    </div>
+
                 </div>
-                <div className='maintheme__left col-md-6 col-sm-12 align-self-center'>
+
+            </div>
+            <div className='maintheme__left col-md-6 col-sm-12 align-self-center'>
                 <Carousel className='w-100 h-50'>
                     <Carousel.Item interval={1000}>
                         <img

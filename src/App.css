@@ -84,12 +84,15 @@ p.danger {
 .heading {
   color: white;
 }
+/* .App{
+  background-color: #000;
+} */
 
 /************ Navbar Css ************/
 nav.navbar {
   /* padding: 18px 0; */
   position: sticky;
-  width: 100vw;
+  /* width: 100vw; */
   top: 0;
   /* border: 2px solid white; */
   margin-bottom: 0;
@@ -825,7 +828,22 @@ text-align: left;
 /* Conferences Theme Section */
 .maintheme{
   height: 120vh;
+  width: 100vw;
   background-color: #000;
+}
+.inside{
+  display: flex;
+  justify-content: center;
+}
+.speaker__header{
+  background-color: #F13531;
+  color: white;
+  /* border-bottom: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100vw; */
+  padding: 10px;
 }
 /* .maintheme__left{
   height: 100%;
