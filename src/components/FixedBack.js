@@ -5,17 +5,17 @@ gsap.registerPlugin(ScrollTrigger);
 
 export const FixedBack = () => {
 const fixedHeading = useRef(null);
-useEffect(()=> {
-  const el = fixedHeading.current;
-  gsap.fromTo(el , {fontSize : 50}, {fontSize: 100, scrollTrigger:{
-    // start: "top center",
-    trigger: el,
+// useEffect(()=> {
+//   const el = fixedHeading.current;
+//   gsap.fromTo(el , {fontSize : 50}, {fontSize: 100, scrollTrigger:{
+//     // start: "top center",
+//     trigger: el,
 
-    scrub: true,
-    // markers: true,
+//     scrub: true,
+//     // markers: true,
 
-  }})
-},[])
+//   }})
+// },[])
   const mystyle = {
     color: "white",
     fontWeight: "900",
