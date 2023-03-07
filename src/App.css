@@ -822,4 +822,20 @@ text-align: left;
   
 }
 
-/* Gallery */
+/* Conferences Theme Section */
+.maintheme{
+  height: 120vh;
+  background-color: #000;
+}
+/* .maintheme__left{
+  height: 100%;
+  display: flex;
+  align-items: center; */
+  /* border: 2px solid white; */
+/* } */
+/* .maintheme__right{ */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
