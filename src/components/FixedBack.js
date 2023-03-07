@@ -7,7 +7,7 @@ export const FixedBack = () => {
 const fixedHeading = useRef(null);
 useEffect(()=> {
   const el = fixedHeading.current;
-  gsap.fromTo(el , {fontSize : 40}, {fontSize: 100,duration: 2, scrollTrigger:{
+  gsap.fromTo(el , {fontSize : 50}, {fontSize: 100, scrollTrigger:{
     // start: "top center",
     trigger: el,
 
