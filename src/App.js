@@ -16,13 +16,15 @@ import {Conference} from './components/Conference';
 import { Carousel } from './components/Carousel';
 import { Speakers } from './components/Speakers';
 import ParticleBackground from './components/ParticleBackground';
+// import {createBrowserHistory} from 'history';
 
+// export const customHistory = createBrowserHistory(); 
 function App() {
   return (
     <div className="App">
             
             <NavBar />
-      <Router>
+     
         <Switch>
           <Route exact path='/'>
             <ParticleBackground />
@@ -35,15 +37,15 @@ function App() {
             <Footer />
             {/* <Copyright />  */}
           </Route>
-          <Route exact path='/conferences'>
+          <Route path='/conferences'>
             <MainTheme/>
             <Conference/>
             
           </Route>
-          <Route exact path='/team'>
+          <Route path='/team'>
             <Team/>
           </Route>
-          <Route exact path='/gallery'>
+          <Route path='/gallery'>
             <Carousel/>
             <Speakers/>
           </Route>
@@ -51,7 +53,7 @@ function App() {
 
 
         </Switch>
-      </Router>
+   
 
 
 

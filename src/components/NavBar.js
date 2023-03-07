@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/tedxnitjLogoTwoLine.png';
+import { NavLink } from "react-router-dom";
 
 import {
-  Link
+  Link, BrowserRouter as Router
 } from "react-router-dom";
 
 export const NavBar = () => {
@@ -30,6 +31,7 @@ export const NavBar = () => {
   }
 
   return (
+
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           {/* <Navbar.Brand href="/">
@@ -46,8 +48,8 @@ export const NavBar = () => {
             <Link to="/conferences" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('conferences')}>Conferences</Link>
               <Link to="/sponsors" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('sponsors')}>Sponsors</Link>
               <Link to="/gallery" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('gallery')}>Gallery</Link>
-              <Link to="/team" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('team')}>Our Team</Link>
-              <Link to="/involve" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('involve')}>Get Involved</Link>
+              <NavLink to="team" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('team')}>Our Team</NavLink>
+              <Link to="/" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('involve')}>Get Involved</Link>
             </Nav>
             
           </Navbar.Collapse>
