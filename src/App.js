@@ -11,8 +11,8 @@ import { Footer } from './components/Footer'
 import { Copyright } from './components/Copyright'
 import { Test } from './components/Test'
 import { Team } from './components/Team';
-import {MainTheme} from './components/MainTheme';
-import {Conference} from './components/Conference';
+import { MainTheme } from './components/MainTheme';
+import { Conference } from './components/Conference';
 import { Carousel } from './components/Carousel';
 import { Speakers } from './components/Speakers';
 import ParticleBackground from './components/ParticleBackground';
@@ -22,38 +22,38 @@ import ParticleBackground from './components/ParticleBackground';
 function App() {
   return (
     <div className="App">
-            
-            <NavBar />
-     
-        <Switch>
-          <Route exact path='/'>
-            <ParticleBackground />
-            <Banner />
-            <FixedBack />
-            <Theme />
-            <About />
-            {/* <Test/> */}
-            <Connect />
-            <Footer />
-            {/* <Copyright />  */}
-          </Route>
-          <Route path='/conferences'>
-            <MainTheme/>
-            <Conference/>
-            
-          </Route>
-          <Route path='/team'>
-            <Team/>
-          </Route>
-          <Route path='/gallery'>
-            <Carousel/>
-            <Speakers/>
-          </Route>
+
+      <NavBar />
+
+      <Switch>
+        <Route exact path='/'>
+          <ParticleBackground />
+          <Banner />
+          <FixedBack />
+          <Theme />
+          <About />
+          {/* <Test/> */}
+          <Connect />
+          <Footer />
+          {/* <Copyright />  */}
+        </Route>
+        <Route path='/conferences'>
+          <MainTheme />
+          <Conference />
+
+        </Route>
+        <Route path='/team'>
+          <Team />
+        </Route>
+        <Route path='/gallery'>
+          <Carousel />
+          <Speakers />
+        </Route>
 
 
 
-        </Switch>
-   
+      </Switch>
+
 
 
 
