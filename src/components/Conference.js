@@ -7,7 +7,7 @@ export const Conference = () => {
             <h1>Speakers</h1>
             
         </div>
-        <Team/>
+        {/* <Team/> */}
     </div>
   )
 }

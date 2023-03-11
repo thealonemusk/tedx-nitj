@@ -42,7 +42,7 @@ export const Connect = () => {
         }
     }
     return (
-        <div className='connect row'>
+        <div id="weInspire" className='connect row'>
             <div className='col-md-6 connect__left'>
                 <h1 className='connect__left_staticText'>We cultivate</h1>
                 <h1>

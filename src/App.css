@@ -276,9 +276,9 @@ text-align: left;
   justify-content: center;
  
 } */
-/* .heading__mobile{
-  display: none;
-} */
+.heading__mobile{
+  padding: 20px;
+}
 .heading__mobile h1{
   color: white;
   font-size: 4rem;
@@ -633,6 +633,7 @@ text-align: left;
 .foot{
   background-color: #111111;
   padding: 50px;
+  font-size: large;
 }
 
 

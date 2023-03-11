@@ -7,22 +7,22 @@ export const About = () => {
     const aboutTed = useRef(null);
     const aboutTedx = useRef(null);
     const aboutTedxNitj = useRef(null);
-    useEffect(() => {
-        const el = aboutTed.current;
+    // useEffect(() => {
+    //     const el = aboutTed.current;
         
-        gsap.fromTo(el, {opacity : 0}, {opacity : 1, duration: 4, scrollTrigger : {
-            trigger: el,
+    //     gsap.fromTo(el, {opacity : 0}, {opacity : 1, duration: 4, scrollTrigger : {
+    //         trigger: el,
             
-        }})
+    //     }})
        
-    },[])
+    // },[])
     return (
         <div className="about__page">
             {/* <div class='rotate'>
                 <h1><span className="what">WHAT</span>IS</h1>
             </div> */}
             <div className="about">
-                <div className='row about__blocks' ref={aboutTed}> 
+                <div className='row about__blocks'> 
                     <div className='col-lg-4 col-md-6 about__ted'>
                         <h1 className='about_heading'>TED</h1>
                         <p>TED is a nonpartisan nonprofit devoted to spreading ideas, usually in the form of short, powerful talks. TED began in 1984 as a conference where Technology, Entertainment and Design converged, and today covers almost all topics — from science to business to global issues — in more than 110 languages. Meanwhile, independently run TEDx events help share ideas in communities around the world.</p>
