@@ -832,6 +832,9 @@ text-align: left;
 .team__card{
   
 }
+.message{
+  padding: 10px;
+}
 
 /* Conferences Theme Section */
 .maintheme{

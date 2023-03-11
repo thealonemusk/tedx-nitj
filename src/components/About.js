@@ -5,8 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger)
 export const About = () => {
     const aboutTed = useRef(null);
-    const aboutTedx = useRef(null);
-    const aboutTedxNitj = useRef(null);
+
     // useEffect(() => {
     //     const el = aboutTed.current;
         

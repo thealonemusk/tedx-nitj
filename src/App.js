@@ -17,6 +17,7 @@ import { Carousel } from './components/Carousel';
 import { Speakers } from './components/Speakers';
 import ParticleBackground from './components/ParticleBackground';
 import { Navbaar } from './components/Navbaar';
+import NewsletterSubscribe from './components/NewsletterSubscribe';
 // import {createBrowserHistory} from 'history';
 
 // export const customHistory = createBrowserHistory(); 
@@ -35,6 +36,7 @@ function App() {
           <About />
           {/* <Test/> */}
           <Connect />
+          
           <Footer />
           {/* <Copyright />  */}
         </Route>

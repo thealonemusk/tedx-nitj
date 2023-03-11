@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import TypeWriterEffect from 'react-typewriter-effect';
+// import MailchimpSubscribe from 'react-mailchimp-subscribe';
+import NewsletterSubscribe from './NewsletterSubscribe';
 export const Connect = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
@@ -7,6 +9,8 @@ export const Connect = () => {
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
     const toRotate = ["ideas", "lorem", "ipsum"];
+    // const MAILCHIMP_URL = "https://gmail.us21.list-manage.com/subscribe/post?u=bb47df5ca372d448ecdd95ea2&amp;id=fee513aebb&amp;f_id=00ba94e1f0";
+    // const MAILCHIMP_URL = "https://gmail.us21.list-manage.com/subscribe/post?u=bb47df5ca372d448ecdd95ea2&amp;id=fee513aebb&amp;f_id=00ba94e1f0";
     const period = 2000;
 
     useEffect(() => {
@@ -41,6 +45,10 @@ export const Connect = () => {
             setIndex(prevIndex => prevIndex + 1);
         }
     }
+    const submitForm = (event) => {
+        event.preventDefault();
+
+    }
     return (
         <div id="weInspire" className='connect row'>
             <div className='col-md-6 connect__left'>
@@ -72,11 +80,16 @@ export const Connect = () => {
             </div>
             <div className='col-md-6 connect__right'>
                 <p className='connect__right_text'>Be the first to hear about our upcoming events, early bird ticket sales and ideas worth sharing. Sign Up</p>
-                <div className='email__section row'>
-                    <input type="email " class="col-md-6 col-sm-12 " placeholder="Enter your email" />
+                <div className=''>
+                    {/* <form onSubmit={submitForm}>
+                    <input type="email" class="col-md-6 col-sm-12 " placeholder="Enter your email" />
                 
-                    <button type="button" class="btn btn-danger btn-lg col-md-6 col-sm-12">INSPIRE ME</button>
+                    <button type="submit" class="btn btn-danger btn-lg col-md-6 col-sm-12">INSPIRE ME</button>
+                    </form> */}
+                    <NewsletterSubscribe/>
                 </div>
+                {/* MAILCHIMP_STARTS */}
+                
 
             </div>
         </div>
