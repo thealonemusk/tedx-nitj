@@ -96,13 +96,14 @@ nav.navbar {
   top: 0;
   /* border: 2px solid white; */
   margin-bottom: 0;
+  padding: 10px;
   z-index: 9999;
   /* border: 2px solid wheat; */
   transition: 0.32s ease-in-out;
 }
 
 nav.navbar.scrolled {
-  padding: 0px 0;
+  /* padding: 0px 0; */
   background-color: black;
 }
 
@@ -119,7 +120,10 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 18px;
   opacity: 0.75;
 }
-
+.navbar img{
+  width: 125px;
+  height: auto;
+}
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   border-bottom: 2px solid white;
@@ -184,6 +188,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
+}
+.navHeadings{
+  width: 100%;
 }
 
 /************ Banner Css ************/
@@ -728,7 +735,7 @@ text-align: left;
   justify-content: center;
   margin: 20px;
   align-content: center;
-  transition: 0.5s;
+  transition: 0.35s;
   /* z-index: 1000; */
 }
 .pro_img{
@@ -737,8 +744,8 @@ text-align: left;
   position: relative;
   border: 2px solid #000;
   border-radius: 50%;
-  transition: 0.5s;
-  transition-delay: 0.5s;
+  transition: 0.35s;
+  transition-delay: 0.35s;
   z-index: 10;
 }
 
@@ -752,8 +759,8 @@ text-align: left;
   position: absolute;
   width: 100%;
   top: 25%;
-  transition: 0.5s;
-  transition-delay: 0.5s;
+  transition: 0.35s;
+  transition-delay: 0.35s;
 }
 .name{
   font-family: 'Baloo Paaji 2', cursive ;
@@ -814,7 +821,7 @@ text-align: left;
   top: 50%;
 }
 .profile:hover .name{
-  /* transition: 0.5s; */
+  /* transition: 0.2s; */
   display: block;
   color: #000;
 }

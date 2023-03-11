@@ -16,6 +16,7 @@ import { Conference } from './components/Conference';
 import { Carousel } from './components/Carousel';
 import { Speakers } from './components/Speakers';
 import ParticleBackground from './components/ParticleBackground';
+import { Navbaar } from './components/Navbaar';
 // import {createBrowserHistory} from 'history';
 
 // export const customHistory = createBrowserHistory(); 
@@ -23,7 +24,7 @@ function App() {
   return (
     <div className="App">
 
-      <NavBar />
+      <Navbaar />
 
       <Switch>
         <Route exact path='/'>
