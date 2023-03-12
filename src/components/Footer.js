@@ -28,7 +28,7 @@ export const Footer = () => {
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">TED</a></li>
                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">TEDx</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">TED Blog</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Get Involved</a></li>
                 
               </ul>
             </div>
@@ -58,14 +58,14 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div class="d-flex flex-column flex-sm-row justify-content-between py-4  border-top">
-            <p>© 2022 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
+          {/* <div class="d-flex flex-column flex-sm-row justify-content-between py-4  border-top">
+            <p>© 2022 Company, Inc. All rights reserved.</p> */}
+            {/* <ul class="list-unstyled d-flex"> */}
               {/* <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li> */}
-            </ul>
-          </div>
+            {/* </ul> */}
+          {/* </div> */}
         </footer>
       </div>
     // </div>

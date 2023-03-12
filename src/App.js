@@ -38,7 +38,7 @@ function App() {
           <Connect />
           
           <Footer />
-          {/* <Copyright />  */}
+          <Copyright /> 
         </Route>
         <Route path='/conferences'>
           <MainTheme />

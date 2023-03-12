@@ -21,9 +21,10 @@ export const About = () => {
             <div className="about">
 
                 <div className='row about__blocks'>
-                    <div className='col-lg-3 col-md-6 about__ted align-self-center'>
+                    <div className='col-lg-2 col-md-12 about__ted align-self-end'>
                         <h1 className='vertical-text'><span className="what">WHAT</span>IS</h1>
                     </div>
+                    <div className='col-lg-1'></div>
                     <div className='col-lg-3 col-md-6 about__ted'>
                         <h1 className='about_heading'>TED</h1>
                         <p>TED is a nonpartisan nonprofit devoted to spreading ideas, usually in the form of short, powerful talks. TED began in 1984 as a conference where Technology, Entertainment and Design converged, and today covers almost all topics — from science to business to global issues — in more than 110 languages. Meanwhile, independently run TEDx events help share ideas in communities around the world.</p>

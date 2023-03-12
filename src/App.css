@@ -265,7 +265,8 @@ text-align: left;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  justify-content: flex-end;
+  justify-content: flex-start;
+  align-items: end;
   height: 100vh;
   width: 100vw;
   background: url(https://tedx.amsterdam/wp-content/uploads/speakesr_divider.jpg) no-repeat center center/cover;
@@ -427,6 +428,7 @@ text-align: left;
   /* border: 1px solid red; */
   background-color: white;
   color: black;
+  padding: 20px;
   /* margin-top: 100px; */
   /* /* align-items: center; */
   /* display: flex;
@@ -480,18 +482,34 @@ text-align: left;
 }
 .vertical-text{
   transform: rotate(-90deg);
-  /* transform-origin: top; */
-  font-size: 100px;
+  /* transform-origin: top left; */
+  font-size: 120px;
   font-family: "HelveticaNeueLTStd", Sans-serif;
-  font-weight: 900;
+  /* font-weight: 900; */
   letter-spacing: -1px;
-  margin-bottom: -70px;
+  /* margin-left: 0px; */
+  margin-bottom: -45px;
 }
-@media screen and (max-width: 767px) {
+.vertical-text-theme{
+  transform: rotate(90deg);
+  /* transform-origin: top left; */
+  font-size: 60px;
+  font-family: "HelveticaNeueLTStd", Sans-serif;
+  /* font-weight: 900; */
+  letter-spacing: -1px;
+  /* margin-left: 0px; */
+  /* margin-bottom: -45px; */
+  margin-top: 20px;
+}
+@media screen and (max-width: 991px) {
   .vertical-text{
     transform: rotate(0deg);
     text-align: center;
-    font-size: 10vw;
+    font-size: 15vw;
+  }
+  .vertical-text-theme{
+    transform: rotate(0deg);
+    text-align: center;
   }
 }
 .about__blocks {
@@ -507,6 +525,7 @@ text-align: left;
 
 .what {
   color: grey;
+  font-weight: 900;
 }
 
 .about__ted {
@@ -560,7 +579,7 @@ text-align: left;
   background-color: #000;
   justify-content: space-between; */
   /* border-bottom: 0.01px solid lightgray; */
-  padding: 50px;
+  padding: 20px;
   /* box-shadow: 2px white; */
   background: url("https://freight.cargo.site/w/1200/i/f2db8f16ac29f033480423bc1336155b00fde20482cf0a66131407504efcb0aa/black-BG.jpg") center center/cover;
 }
@@ -656,7 +675,7 @@ text-align: left;
   /* background-color: #111111;
    */
    background-color: #000;
-  padding: 50px;
+  padding: 20px;
   font-size: large;
 }
 
@@ -718,7 +737,7 @@ text-align: left;
 
 
 .copyright {
-  background-color: #111111;
+  background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
