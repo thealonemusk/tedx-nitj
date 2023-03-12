@@ -1,6 +1,4 @@
 /************ Custom Font ************/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Plus+Jakarta+Sans:wght@300&family=Red+Hat+Display:wght@300&family=Roboto:wght@500&family=Space+Grotesk:wght@600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;700&family=Open+Sans:wght@500&family=Plus+Jakarta+Sans:wght@300&family=Red+Hat+Display:wght@300&family=Roboto:wght@500&family=Space+Grotesk:wght@600;700&display=swap');
 
 
 /************ Default Css ************/
@@ -19,9 +17,11 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
+  
   background-color: black !important;
   color: #fff !important;
-  font-family: 'Baloo Paaji 2', cursive !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+  /* letter-spacing: -1px; */
 }
 
 h1,
@@ -394,14 +394,14 @@ text-align: left;
 } */
 
 .theme-text{
-  font-size: large;
+  font-size: 20px;
   /* display: flex; */
   /* border: 2px solid orange; */
   background-color: #000;
   /* height: 100%; */
   /* align-items: center; */
   color: gray;
-  /* padding: 10px; */
+  padding: 10px;
   /* border-left: 2px solid red; */
 }
 .login-main-text{
@@ -454,8 +454,8 @@ text-align: left;
   /* transform: rotate(-90deg); */
 }
 
-.about__us h1 {
-  /* border: 2px solid red; */
+/* .about__us h1 {
+
   margin-left: 40px;
   color: black;
   transform: rotate(-90deg);
@@ -465,7 +465,7 @@ text-align: left;
   font-weight: 900;
   text-transform: none;
   letter-spacing: -1px;
-}
+} */
 
 .about {
   /* width: 80%; */
@@ -478,7 +478,22 @@ text-align: left;
   align-items: center; */
   /* margin-top: 100px; */
 }
-
+.vertical-text{
+  transform: rotate(-90deg);
+  /* transform-origin: top; */
+  font-size: 100px;
+  font-family: "HelveticaNeueLTStd", Sans-serif;
+  font-weight: 900;
+  letter-spacing: -1px;
+  margin-bottom: -70px;
+}
+@media screen and (max-width: 767px) {
+  .vertical-text{
+    transform: rotate(0deg);
+    text-align: center;
+    font-size: 10vw;
+  }
+}
 .about__blocks {
   /* height: fit-content; */
   padding: 30px;
@@ -547,7 +562,7 @@ text-align: left;
   /* border-bottom: 0.01px solid lightgray; */
   padding: 50px;
   /* box-shadow: 2px white; */
-  background-color: #000;
+  background: url("https://freight.cargo.site/w/1200/i/f2db8f16ac29f033480423bc1336155b00fde20482cf0a66131407504efcb0aa/black-BG.jpg") center center/cover;
 }
 
 .connect__left {
@@ -618,7 +633,7 @@ text-align: left;
   /* flex: 0.45; */
 }
 .connect__left_staticText{
-  font-family: 'Baloo Paaji 2', cursive ;
+  /* font-family: 'Baloo Paaji 2', cursive ; */
 }
 
 .email__section button {
@@ -638,7 +653,9 @@ text-align: left;
 /************ Footer Css ************/
 /************ Footer Css ************/
 .foot{
-  background-color: #111111;
+  /* background-color: #111111;
+   */
+   background-color: #000;
   padding: 50px;
   font-size: large;
 }
@@ -722,7 +739,15 @@ text-align: left;
   margin: 0;
   padding: 20px;
   flex-wrap: wrap;
-  background: url("https://images.squarespace-cdn.com/content/v1/5ad8bb4fda02bcba75a55623/1525047504723-OV37BD4RED7H5I9IKHJ2/TEDxLogo_Swoop.png?format=2500w");
+  background: url("https://images.squarespace-cdn.com/content/v1/5dcc05a3642a6c03df9c65c5/1583521505687-1WK8WH26ME71O9NNY2N5/TEDxGlasgow+Social%402x-100.jpg?format=2500w") center center/cover;
+}
+@media  screen and (max-width:500px) {
+  .team__card{
+    background: url("https://w0.peakpx.com/wallpaper/899/431/HD-wallpaper-minimal-4-3d-abstract-art-black-by-colorful-digital-geometry-glitch-icon-lines-pattern-red-shapes-simple-white.jpg") center center/cover;
+  }
+  /* .makeitred{
+    color: black;
+  } */
 }
 .profile{
   /* opacity: 0.75; */
@@ -763,7 +788,7 @@ text-align: left;
   transition-delay: 0.35s;
 }
 .name{
-  font-family: 'Baloo Paaji 2', cursive ;
+  /* font-family: 'Baloo Paaji 2', cursive ; */
   font-size: 25px;
   text-align: center;
   margin-top: 30px;
@@ -771,7 +796,7 @@ text-align: left;
   /* color: white; */
 }
 .bio{
-  font-family: 'Baloo Paaji 2', cursive ;
+  /* font-family: 'Baloo Paaji 2', cursive ; */
   font-size: 20px;
   text-align: center;
   margin-top: 5px;
