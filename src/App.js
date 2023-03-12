@@ -18,6 +18,7 @@ import { Speakers } from './components/Speakers';
 import ParticleBackground from './components/ParticleBackground';
 import { Navbaar } from './components/Navbaar';
 import NewsletterSubscribe from './components/NewsletterSubscribe';
+import { Gallery } from './components/Gallery';
 // import {createBrowserHistory} from 'history';
 
 // export const customHistory = createBrowserHistory(); 
@@ -49,8 +50,7 @@ function App() {
           <Team />
         </Route>
         <Route path='/gallery'>
-          <Carousel />
-          <Speakers />
+       <Gallery/>
         </Route>
 
 
