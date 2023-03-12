@@ -59,7 +59,7 @@ export const Theme = () => {
           </div>
         </div>
         <div className='col-lg-2 col-md-12 about__ted align-self-start'>
-          <h1 className='vertical-text-theme'><span className="makeitred">REVERBERATED</span></h1>
+          <h1 className='vertical-text-theme'>REVERBERATED</h1>
         </div>
       </div>
     </div>

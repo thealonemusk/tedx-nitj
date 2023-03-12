@@ -198,7 +198,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   display: flex;
   align-items: center;
-  height: 85vh;
+  height: 100vh;
   /* justify-content: ; */
 }
 
@@ -497,6 +497,7 @@ text-align: left;
   font-family: "HelveticaNeueLTStd", Sans-serif;
   /* font-weight: 900; */
   letter-spacing: -1px;
+  color: red;
   /* margin-left: 0px; */
   /* margin-bottom: -45px; */
   margin-top: 20px;
@@ -509,6 +510,8 @@ text-align: left;
   }
   .vertical-text-theme{
     transform: rotate(0deg);
+    font-size: 10vw;
+
     text-align: center;
   }
 }
