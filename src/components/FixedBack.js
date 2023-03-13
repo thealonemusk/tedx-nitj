@@ -36,10 +36,8 @@ const fixedHeading = useRef(null);
         <h1 style={mystyle} ref={fixedHeading}>REVERBERATED '23</h1>
       </div> */}
       <div className='heading__mobile'>
-        <h1 ref={fixedHeading}>REVER</h1>
-        <h1>BERA</h1>
-        <h1>TED </h1>
-        <h1>2023</h1>
+        <h1>REVERBERA<span className="makeitred">TED</span> '23</h1>
+        
       </div>
     </div>
   )

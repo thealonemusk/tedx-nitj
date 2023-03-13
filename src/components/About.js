@@ -22,7 +22,7 @@ export const About = () => {
 
                 <div className='row about__blocks'>
                     <div className='col-lg-2 col-md-12 about__ted align-self-end'>
-                        <h1 className='vertical-text'><span className="what">WHAT</span>IS</h1>
+                        <h1 className='vertical-text'><span className="what">WHAT&nbsp;</span>IS</h1>
                     </div>
                     <div className='col-lg-1'></div>
                     <div className='col-lg-3 col-md-6 about__ted'>

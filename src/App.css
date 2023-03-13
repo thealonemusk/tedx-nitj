@@ -293,9 +293,7 @@ text-align: left;
   font-family: "HelveticaNeueLTStd", sans-serif;
   font-weight: 900;
 }
-.heading__mobile h1:nth-child(3){
-  color: #E62B1E;
-}
+
 
 
 /************ Theme Css ************/
@@ -486,6 +484,7 @@ text-align: left;
   font-size: 120px;
   font-family: "HelveticaNeueLTStd", Sans-serif;
   /* font-weight: 900; */
+  font-weight: 0;
   letter-spacing: -1px;
   /* margin-left: 0px; */
   margin-bottom: -45px;
@@ -493,11 +492,15 @@ text-align: left;
 .vertical-text-theme{
   transform: rotate(90deg);
   /* transform-origin: top left; */
-  font-size: 60px;
+  text-decoration: underline;
+  font-size: 55px;
+  /* height: 100%; */
+  /* border: 1px solid white; */
   font-family: "HelveticaNeueLTStd", Sans-serif;
+  font-weight: 800;
   /* font-weight: 900; */
   letter-spacing: -1px;
-  color: red;
+  color: #E62B1E;
   /* margin-left: 0px; */
   /* margin-bottom: -45px; */
   margin-top: 20px;
@@ -599,8 +602,11 @@ text-align: left;
   padding: 20px;
   /* flex: 0.5; */
 }
- @media screen and (max-width: 765px) {
+ @media screen and (max-width: 767px) {
   .connect__left {align-items: center; }
+  .heading__mobile h1{
+    font-size: 8vw;
+  }
 } 
 
 
@@ -800,7 +806,7 @@ text-align: left;
   color: white;
 }
 .makeitred{
-  color: red;
+  color: #DD352A;
 }
 .dtl{
   position: absolute;
