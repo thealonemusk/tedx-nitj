@@ -223,12 +223,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 padding: 20px;
 text-align: left;
 }
+.banner__left img{
+  padding: 20px;
+}
 
 .banner__left p {
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1.5;
-  padding: 20px;
+  padding: 40px;
 }
 
 .banner__right {
@@ -415,6 +418,7 @@ text-align: left;
   /* display: flex; */
   /* border: 2px solid orange; */
   background-color: #000;
+  text-align: justify;
   /* height: 100%; */
   /* align-items: center; */
   color: gray;
@@ -516,7 +520,7 @@ text-align: left;
   /* height: 100%; */
   /* border: 1px solid white; */
   font-family: "HelveticaNeueLTStd", Sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   /* font-weight: 900; */
   letter-spacing: -1px;
   color: #E62B1E;
@@ -540,6 +544,8 @@ text-align: left;
 .about__blocks {
   /* height: fit-content; */
   padding: 30px;
+  text-align: justify;
+  /* line-height: 100px; */
   /* font-size: 15px; */
   background-color: #fff;
   /* border: 2px solid red; */
@@ -555,9 +561,10 @@ text-align: left;
 }
 
 .about__ted {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 100;
-  padding: 50px;
+  text-align: justify;
+  padding: 70px;
 }
 
 .theme__page{

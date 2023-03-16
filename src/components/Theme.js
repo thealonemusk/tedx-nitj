@@ -54,7 +54,7 @@ export const Theme = () => {
         <div class="col-md-4 col-sm-12 align-self-center">
           <div class="main">
             <div class="theme-text">
-              <p>The theme of our event is “ReverberaTED” which in its very essence alludes to the echoes of our thoughts, our ideas, and the stories we create while we navigate through life. Our lives might be series of fleeting moments but the footprints we leave on the sand of time are indelible. Nothing we ever think, speak, or do perishes but keeps reverberating through the universe.</p>
+              <p>The theme of our event is “ReverberaTED” which in its very essence alludes to the echoes of our thoughts, our ideas, and the stories we create while we navigate through life. Our lives might be series of fleeting moments but the footprints we leave on the sand of time are indelible. Nothing we ever think, speak, or do perishes but keeps reverberating through the universe.</p>
             </div>
           </div>
         </div>
