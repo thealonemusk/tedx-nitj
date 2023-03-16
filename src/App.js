@@ -9,7 +9,8 @@ import { About } from './components/About'
 import { Connect } from './components/Connect'
 import { Footer } from './components/Footer'
 import { Copyright } from './components/Copyright'
-import { Test } from './components/Test'
+import { Test } from './components/Test';
+import { Sponsors } from './components/Sponsors';
 import { Team } from './components/Team';
 import { MainTheme } from './components/MainTheme';
 import { Conference } from './components/Conference';
@@ -44,6 +45,10 @@ function App() {
         <Route path='/conferences'>
           <MainTheme />
           <Conference />
+
+        </Route>
+        <Route path='/sponsors'>
+          <Sponsors/>
 
         </Route>
         <Route path='/team'>
