@@ -20,8 +20,8 @@ body {
   
   background-color: black !important;
   color: #fff !important;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
-  /* letter-spacing: -1px; */
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 h1,
@@ -100,6 +100,7 @@ nav.navbar {
   z-index: 9999;
   /* border: 2px solid wheat; */
   transition: 0.32s ease-in-out;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 nav.navbar.scrolled {
@@ -111,7 +112,7 @@ nav.navbar a.navbar-brand {
   width: 9%;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
+/* nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
@@ -119,16 +120,27 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   margin-bottom: 0px;
   font-size: 18px;
   opacity: 0.75;
-}
+} */
 .navbar img{
   width: 125px;
   height: auto;
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+.nav-tog{
+  display: none;
+}
+@media screen and (max-width:767px){
+  .nav-options{
+    display: none;
+  }
+  .nav-tog{
+    display: block;
+  }
+}
+/* nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   border-bottom: 2px solid white;
   opacity: 1;
-}
+} */
 
 span.navbar-text {
   display: flex;
@@ -137,12 +149,11 @@ span.navbar-text {
 
 
 
-nav.navbar .navbar-toggler:active,
+ nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
 }
-
 nav.navbar .navbar-toggler-icon {
   width: 24px;
   height: 17px;
@@ -156,7 +167,14 @@ nav.navbar .navbar-toggler-icon {
 nav.navbar .navbar-toggler-icon:focus {
   border-bottom: 2px solid #fff;
 }
-
+.nav-option{
+  margin: 0;
+  opacity: 0.75;
+}
+.nav-option:hover, .nav-option:active{
+  border-bottom: 1px solid white;
+  opacity: 1;
+}
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
   width: 24px;
@@ -186,9 +204,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   height: 2px;
 }
 
-nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-  border-color: transparent;
-}
+
 .navHeadings{
   width: 100%;
 }
@@ -198,6 +214,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   display: flex;
   align-items: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   height: 100vh;
   /* justify-content: ; */
 }
@@ -300,6 +317,7 @@ text-align: left;
 
 .theme__page {
   background-color: black;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   /* display: flex; */
   /* border: 2px solid blue; */
   /* border: 1px solid green; */
@@ -425,6 +443,7 @@ text-align: left;
   /* height: 120vh; */
   /* border: 1px solid red; */
   background-color: white;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   color: black;
   padding: 20px;
   /* margin-top: 100px; */
@@ -584,8 +603,11 @@ text-align: left;
   align-items: center;
   background-color: #000;
   justify-content: space-between; */
+  font-family: 'Plus Jakarta Sans', sans-serif;
   /* border-bottom: 0.01px solid lightgray; */
-  padding: 20px;
+  /* padding: 20px; */
+  padding-left: 40px;
+  padding-right: 40px;
   /* box-shadow: 2px white; */
   background: url("https://freight.cargo.site/w/1200/i/f2db8f16ac29f033480423bc1336155b00fde20482cf0a66131407504efcb0aa/black-BG.jpg") center center/cover;
 }
@@ -617,7 +639,7 @@ text-align: left;
 .connect__left_dynamicText {
   font-weight: 800;
   color: #E62B1E;
-  font-family: 'Baloo Paaji 2', cursive ;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .connect__right {
@@ -685,7 +707,10 @@ text-align: left;
    */
    background-color: #000;
   padding: 20px;
-  font-size: large;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: small;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 
@@ -749,6 +774,7 @@ text-align: left;
   background-color: red;
   display: flex;
   align-items: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   justify-content: center;
   padding: 10px;
 }
