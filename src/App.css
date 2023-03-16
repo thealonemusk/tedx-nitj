@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-weight: 400;
+  /* font-weight: 400; */
   overflow-x: hidden;
   position: relative;
   
@@ -112,7 +112,7 @@ nav.navbar a.navbar-brand {
   width: 9%;
 }
 
-/* nav.navbar .navbar-nav .nav-link.navbar-link {
+nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
@@ -120,7 +120,7 @@ nav.navbar a.navbar-brand {
   margin-bottom: 0px;
   font-size: 18px;
   opacity: 0.75;
-} */
+}
 .navbar img{
   width: 125px;
   height: auto;
@@ -136,11 +136,11 @@ nav.navbar a.navbar-brand {
     display: block;
   }
 }
-/* nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   border-bottom: 2px solid white;
   opacity: 1;
-} */
+}
 
 span.navbar-text {
   display: flex;
@@ -225,7 +225,7 @@ text-align: left;
 }
 
 .banner__left p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1.5;
   padding: 20px;
@@ -268,7 +268,7 @@ text-align: left;
 }
 
 .vvd:hover {
-  color: #121212;
+  color: white;
 }
 
 .vvd:hover::before {
@@ -411,7 +411,7 @@ text-align: left;
 } */
 
 .theme-text{
-  font-size: 20px;
+  font-size: 18px;
   /* display: flex; */
   /* border: 2px solid orange; */
   background-color: #000;
@@ -540,6 +540,7 @@ text-align: left;
 .about__blocks {
   /* height: fit-content; */
   padding: 30px;
+  /* font-size: 15px; */
   background-color: #fff;
   /* border: 2px solid red; */
   /* margin-top: 50px; */
@@ -554,7 +555,8 @@ text-align: left;
 }
 
 .about__ted {
-  font-size: large;
+  font-size: 20px;
+  font-weight: 100;
   padding: 50px;
 }
 
@@ -644,7 +646,6 @@ text-align: left;
 
 .connect__right {
   /* padding: 100px; */
-  font-size: small;
   padding: 30px;
   padding-left: 0px;
   /* border: 2px solid red; */
@@ -663,7 +664,7 @@ text-align: left;
   padding: 20px;
   /* margin: 0; */
   /* border: 2px solid red; */
-  font-size: x-large;
+  font-size: large;
 }
 
 .email__section {
@@ -709,7 +710,7 @@ text-align: left;
   padding: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  font-size: small;
+  font-size: 16px;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
