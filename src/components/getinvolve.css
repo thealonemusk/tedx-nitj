@@ -71,14 +71,17 @@
     font-size: 1.3rem;
     transition: all 0.3s ease;
 }
+/* .appBtn:hover{
+
+} */
 #partin {
     margin: 0;
     padding: 70px 40px 50px 40px;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
-button:hover{
+/* button:hover{
     box-shadow: 10px 10px #fff;
-}
+} */
 .emphasis {
     color: #f00;
     font-weight: 700;
