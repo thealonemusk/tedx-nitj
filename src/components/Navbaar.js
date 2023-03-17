@@ -34,7 +34,7 @@ export const Navbaar = () => {
             <NavLink to="sponsors" className='text-white nav-link nav-option' onClick={() => onUpdateActiveLink('sponsors')}>Sponsors</NavLink>
             <NavLink to="gallery" className='text-white nav-link nav-option' onClick={() => onUpdateActiveLink('gallery')}>Gallery</NavLink>
             <NavLink to="team" className='text-white nav-link nav-option' onClick={() => onUpdateActiveLink('team')}>Our Team</NavLink>
-            <Link to="/" className='text-white nav-link nav-option' onClick={() => onUpdateActiveLink('involve')}>Get Involved</Link>
+            <NavLink to="getinvolve" className='text-white nav-link nav-option' onClick={() => onUpdateActiveLink('involve')}>Get Involved</NavLink>
           </Nav>
         </div>
         <div className="nav-tog">
@@ -62,7 +62,7 @@ export const Navbaar = () => {
                   <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="team" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('team')}>Our Team</NavLink></button>
                 </li>
                 <li class="nav-item">
-                  <button className="navHeadings" data-bs-dismiss="offcanvas"><Link to="/" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('involve')}>Get Involved</Link></button>
+                  <button className="navHeadings" data-bs-dismiss="offcanvas"><NavLink to="getinvolve" className='navbar navbar-nav nav-link navbar-link' onClick={() => onUpdateActiveLink('involve')}>Get Involved</NavLink></button>
                 </li>
               </ul>
 

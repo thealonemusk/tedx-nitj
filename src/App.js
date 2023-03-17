@@ -21,6 +21,7 @@ import ParticleBackground from './components/ParticleBackground';
 import { Navbaar } from './components/Navbaar';
 import NewsletterSubscribe from './components/NewsletterSubscribe';
 import { Gallery } from './components/Gallery';
+import { GetInvolved } from './components/GetInvolved';
 
 // import {createBrowserHistory} from 'history';
 
@@ -66,6 +67,9 @@ function App() {
         </Route>
         <Route path='/gallery'>
        <Gallery/>
+        </Route>
+        <Route path='/getinvolve'>
+       <GetInvolved/>
         </Route>
 
 

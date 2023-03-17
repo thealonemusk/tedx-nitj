@@ -1,0 +1,79 @@
+#spekin {
+    background: url(http://tedxiitkharagpur.com/public/images/speakersTEDx.jpg) no-repeat center center fixed;
+    margin: 0;
+    padding: 50px 40px;
+    background-size: cover;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.whitefont {
+    color: #eee;
+}
+.sym {
+    margin: 60px 20px;
+}
+.sym .fa {
+    font-size: 3rem;
+    background-color: rgb(230,43,30);
+    color: #fff;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    line-height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(230,43,30);
+    height: 100px;
+    transition: all 0.3s ease;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1;
+    /* font-size: inherit; */
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    /* -moz-osx-font-smoothing: grayscale; */
+}
+.fa-question::before {
+    content: "\f128";
+}
+.symdes {
+    padding: 15px;
+}
+.fa-wpforms:before {
+    content: "\f298";
+}
+.fa-user-plus:before {
+    content: "\f234";
+}
+.fa-street-view:before {
+    content: "\f21d";
+}
+.appBtn {
+    background-color: rgb(230,43,30);
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px grey;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+#partin {
+    margin: 0;
+    padding: 70px 40px 50px 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.emphasis {
+    color: #f00;
+    font-weight: 700;
+}
+.fa-chain::before, .fa-link:before {
+    content: "\f0c1";
+}
+.fa-line-chart:before {
+    content: "\f201";
+}
+.fa-flash:before, .fa-bolt:before {
+    content: "\f0e7";
+}
