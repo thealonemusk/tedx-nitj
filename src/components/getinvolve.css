@@ -50,6 +50,11 @@
 .symdes {
     padding: 15px;
 }
+.symdes p{
+    /* text-align: justify; */
+    font-weight: 100;
+    color: lightgray;
+}
 .fa-wpforms:before {
     content: "\f298";
 }
