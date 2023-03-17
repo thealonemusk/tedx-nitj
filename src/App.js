@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
@@ -20,12 +21,20 @@ import ParticleBackground from './components/ParticleBackground';
 import { Navbaar } from './components/Navbaar';
 import NewsletterSubscribe from './components/NewsletterSubscribe';
 import { Gallery } from './components/Gallery';
+
 // import {createBrowserHistory} from 'history';
 
 // export const customHistory = createBrowserHistory(); 
 function App() {
+  const [backend, setBackend] = useState([{}])
+  // useEffect(()=>{
+  //   fetch("/api").then(response => response.json()).then(data => {
+  //     setBackend(data)
+  //   })
+  // },[])
   return (
     <div className="App">
+      
 
       <Navbaar />
 
@@ -38,12 +47,13 @@ function App() {
           <About />
           {/* <Test/> */}
           <Connect />
+          {/* <p>{backend}</p> */}
           
           <Footer />
           <Copyright /> 
         </Route>
         <Route path='/conferences'>
-          <MainTheme />
+          {/* <MainTheme /> */}
           <Conference />
 
         </Route>

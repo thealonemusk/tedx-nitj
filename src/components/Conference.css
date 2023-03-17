@@ -1,0 +1,27 @@
+.conferences{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background: url(../components/bg-sponsors.png) no-repeat center center/cover;
+    justify-content: center;
+
+}
+.conference__main{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 2px;
+}
+.conference__maintext{
+    font-family: 'Huova Demo';
+font-style: normal;
+font-weight: 300;
+font-size: 45.641px;
+line-height: 73px;
+/* or 160% */
+
+
+}
+.conference__image{
+    padding: 50px;
+    background: url(./conBG.png) no-repeat center center;
+}
