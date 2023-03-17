@@ -26,7 +26,7 @@ export const Navbaar = () => {
   return (
     <nav class={scrolled ? "navbar fixed-top scrolled" : "navbar fixed-top"}>
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img className="header_image" src={logo} alt="Logo" /></a>
+        <Link to="/"><a class="navbar-brand"><img className="header_image" src={logo} alt="Logo" /></a></Link>
         <div className="nav-options">
 
           <Nav className="ms-auto">
