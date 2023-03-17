@@ -17,6 +17,9 @@
     color: #fff;
     width: 100px;
     padding: 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     margin: 0;
     line-height: 100px;
     border-radius: 50%;
@@ -26,15 +29,24 @@
 }
 .fa {
     display: inline-block;
-    font: normal normal normal 14px/1;
+    font: normal normal normal 14px;
     /* font-size: inherit; */
     text-rendering: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
     -webkit-font-smoothing: antialiased;
-    /* -moz-osx-font-smoothing: grayscale; */
+    -moz-osx-font-smoothing: grayscale;
 }
-.fa-question::before {
-    content: "\f128";
+.fa:hover{
+    background-color: white;
+    color: rgb(230,43,30);
 }
+.fa svg{
+    margin-bottom: 18px;
+    font-size: 60px;
+}
+
 .symdes {
     padding: 15px;
 }
@@ -63,6 +75,9 @@
     margin: 0;
     padding: 70px 40px 50px 40px;
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+button:hover{
+    box-shadow: 10px 10px #fff;
 }
 .emphasis {
     color: #f00;

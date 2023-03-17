@@ -284,7 +284,7 @@ text-align: left;
 .fixedBack {
   display: flex;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
   /* padding: auto; */
   padding: 2vw;
   /* align-items: center; */
@@ -292,11 +292,11 @@ text-align: left;
   align-items: end;
   height: 100vh;
   
-  background: url(https://tedx.amsterdam/wp-content/uploads/speakesr_divider.jpg) ;
+  background: url(https://tedx.amsterdam/wp-content/uploads/speakesr_divider.jpg) no-repeat center center fixed ;
   /* background-color: #000; */
   /* border: 2px solid orange; */
 
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 
@@ -308,7 +308,7 @@ text-align: left;
  
 } */
 .heading__mobile{
-  position: relative;
+  /* position: relative; */
   padding: 20px;
 }
 .heading__mobile h1{
