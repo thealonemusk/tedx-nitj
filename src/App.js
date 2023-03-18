@@ -56,6 +56,7 @@ function App() {
         <Route path='/conferences'>
           {/* <MainTheme /> */}
           <Conference />
+          <Speakers/>
 
         </Route>
         <Route path='/sponsors'>
