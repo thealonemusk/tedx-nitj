@@ -30,11 +30,11 @@ export const Navbaar = () => {
         <div className="nav-options">
 
           <Nav className="ms-auto">
-            <NavLink to="conferences" className='text-light nav-link nav-option ' onClick={() => onUpdateActiveLink('conferences')}>Conferences</NavLink>
-            <NavLink to="sponsors" className='text-white nav-link nav-option' onClick={() => onUpdateActiveLink('sponsors')}>Sponsors</NavLink>
-            <NavLink to="gallery" className='text-white nav-link nav-option' onClick={() => onUpdateActiveLink('gallery')}>Gallery</NavLink>
-            <NavLink to="team" className='text-white nav-link nav-option' onClick={() => onUpdateActiveLink('team')}>Our Team</NavLink>
-            <NavLink to="getinvolve" className='text-white nav-link nav-option' onClick={() => onUpdateActiveLink('involve')}>Get Involved</NavLink>
+            <NavLink to="conferences" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('conferences')}>Conferences</NavLink>
+            <NavLink to="sponsors" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('sponsors')}>Sponsors</NavLink>
+            <NavLink to="gallery" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('gallery')}>Gallery</NavLink>
+            <NavLink to="team" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('team')}>Our Team</NavLink>
+            <NavLink to="getinvolve" className='nav-link navbar-link' onClick={() => onUpdateActiveLink('involve')}>Get Involved</NavLink>
           </Nav>
         </div>
         <div className="nav-tog">

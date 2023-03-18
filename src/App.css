@@ -114,13 +114,13 @@ nav.navbar a.navbar-brand {
   width: 9%;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
+.nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  padding: 25px 25px;
+  padding: 20px 20px;
   margin-bottom: 0px;
-  font-size: 18px;
+  font-size: 15px;
   opacity: 0.75;
 }
 .navbar img{
@@ -138,8 +138,8 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     display: block;
   }
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+.nav-link.navbar-link:hover,
+.nav-link.navbar-link.active {
   border-bottom: 2px solid white;
   opacity: 1;
 }
