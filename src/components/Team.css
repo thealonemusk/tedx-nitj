@@ -1,5 +1,8 @@
+@font-face {
+    font-family: houva;
+    src: url(../assets/font/HuovaDemo-Light.ttf);
+}
 .team__main {
-    font-family: 'Huova Demo';
     padding: 50px;
     background: url(./conBG.png) no-repeat center center;
 }
@@ -20,7 +23,7 @@
 }
 
 .team__main h1 {
-    font-family: 'Huova Demo';
+    font-family: houva;
     font-style: normal;
     font-weight: 300;
     font-size: 58.125px;
