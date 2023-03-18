@@ -21,7 +21,7 @@ body {
   background-color: black !important;
   color: #fff !important;
 
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
 }
 
 h1,
@@ -100,7 +100,7 @@ nav.navbar {
   z-index: 9999;
   /* border: 2px solid wheat; */
   transition: 0.32s ease-in-out;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
 }
 
 nav.navbar.scrolled {
@@ -214,7 +214,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .banner {
   display: flex;
   align-items: center;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
   height: 100vh;
   /* justify-content: ; */
 }
@@ -324,7 +324,7 @@ text-align: left;
 
 .theme__page {
   background-color: black;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
   /* display: flex; */
   /* border: 2px solid blue; */
   /* border: 1px solid green; */
@@ -357,7 +357,7 @@ text-align: left;
   border-bottom: 1px solid white;
   margin-left: 50px;
   transform-origin: top left;
-  font-family: "HelveticaNeueLTStd", Sans-serif;
+  font-family: "HelveticaNeueLTStd", sans-serif;
   font-size: 40px;
   font-weight: 900;
   text-transform: none;
@@ -451,7 +451,7 @@ text-align: left;
   /* height: 120vh; */
   /* border: 1px solid red; */
   background-color: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
   color: black;
   padding: 20px;
   /* margin-top: 100px; */
@@ -509,7 +509,7 @@ text-align: left;
   transform: rotate(-90deg);
   /* transform-origin: top left; */
   font-size: 120px;
-  font-family: "HelveticaNeueLTStd", Sans-serif;
+  font-family: "HelveticaNeueLTStd", sans-serif;
   /* font-weight: 900; */
   font-weight: 0;
   letter-spacing: -1px;
@@ -523,7 +523,7 @@ text-align: left;
   font-size: 55px;
   /* height: 100%; */
   /* border: 1px solid white; */
-  font-family: "HelveticaNeueLTStd", Sans-serif;
+  font-family: "HelveticaNeueLTStd", sans-serif;
   font-weight: 700;
   /* font-weight: 900; */
   letter-spacing: -1px;
@@ -576,7 +576,7 @@ text-align: left;
 }
 .about_heading {
   text-align: center;
-  font-family: "HelveticaNeueLTStd", Sans-serif;
+  font-family: "HelveticaNeueLTStd", sans-serif;
   color: #E62B1E;
   font-weight: 900;
 
@@ -616,7 +616,7 @@ text-align: left;
   align-items: center;
   background-color: #000;
   justify-content: space-between; */
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
   /* border-bottom: 0.01px solid lightgray; */
   /* padding: 20px; */
   padding-left: 40px;
@@ -652,7 +652,7 @@ text-align: left;
 .connect__left_dynamicText {
   font-weight: 800;
   color: #E62B1E;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
 }
 
 .connect__right {
@@ -722,7 +722,7 @@ text-align: left;
   padding-left: 40px;
   padding-right: 40px;
   font-size: 16px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
 }
 
 
@@ -786,7 +786,7 @@ text-align: left;
   background-color: red;
   display: flex;
   align-items: center;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: 'Plus Jakarta Sans';
   justify-content: center;
   padding: 10px;
 }
@@ -799,22 +799,8 @@ text-align: left;
   /* margin-top: 20px; */
 }
 /* Team Card */
-.team__card{
-  width: 100vw;
-  /* margin: 20px; */
-  margin: 0;
-  padding: 20px;
-  flex-wrap: wrap;
-  background: url("https://images.squarespace-cdn.com/content/v1/5dcc05a3642a6c03df9c65c5/1583521505687-1WK8WH26ME71O9NNY2N5/TEDxGlasgow+Social%402x-100.jpg?format=2500w") center center/cover;
-}
-@media  screen and (max-width:500px) {
-  .team__card{
-    background: url("https://w0.peakpx.com/wallpaper/899/431/HD-wallpaper-minimal-4-3d-abstract-art-black-by-colorful-digital-geometry-glitch-icon-lines-pattern-red-shapes-simple-white.jpg") center center/cover;
-  }
-  /* .makeitred{
-    color: black;
-  } */
-}
+
+
 .profile{
   /* opacity: 0.75; */
   width: 300px;

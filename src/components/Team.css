@@ -1,0 +1,48 @@
+.team__main {
+    font-family: 'Huova Demo';
+    padding: 50px;
+    background: url(./conBG.png) no-repeat center center;
+}
+
+.team__main h6 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    /* or 160% */
+
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 1.8px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.team__main h1 {
+    font-family: 'Huova Demo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 58.125px;
+    line-height: 93px;
+}
+.jbNFLs {
+    flex: 1 1 0%;
+    display: flex;
+    scroll-behavior: smooth;
+    overflow: auto;
+    margin: 10px 0px;
+}
+.jbNFLs::-webkit-scrollbar {
+    display: none;
+}
+.fRhUJv {
+    min-width: min-content;
+    padding: 8px;
+    background-color: rgb(56, 56, 56);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
