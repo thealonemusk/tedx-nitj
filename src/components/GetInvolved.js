@@ -8,7 +8,7 @@ export const GetInvolved = () => {
     <div id="getInvolved" class="navDiv" data-scroll-section="">
             <div id="spekin">
                 <div class="text-center">
-                    <h1 class="whitefont">Becoming a Speaker</h1>
+                    <h1 class="whitefont">Becoming a <span class="emphasis">Speaker</span></h1>
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-12 text-center">
@@ -56,21 +56,21 @@ export const GetInvolved = () => {
                         <div class="sym"><div class="fa"><Link/></div></div>
                         <div class="symdes">
                             <h4>Brand Linking</h4>
-                            <p>Associate with a powerful worldwide brand and movement synonymous with creativity, collaboration, and innovation.</p>
+                            <h6 className='makeitwhite'>Associate with a powerful worldwide brand and movement synonymous with creativity, collaboration, and innovation.</h6>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 text-center">
                         <div class="sym"><div class="fa"><GraphUpArrow/></div></div>
                         <div class="symdes">
                             <h4>Lead Generation</h4>
-                            <p>Gain highly qualified leads from tuned-in intellectuals across a variety of industries, including education, healthcare, and technology.</p>
+                            <h6 className='makeitwhite'>Gain highly qualified leads from tuned-in intellectuals across a variety of industries, including education, healthcare, and technology.</h6>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 text-center">
                         <div class="sym"><div class="fa"><Thunderbolt/></div></div>
                         <div class="symdes">
                             <h4>Unconventional</h4>
-                            <p>Access unconventional showcase opportunities unique to our conference, creating genuine experiences that drive higher engagement.</p>
+                            <h6 className='makeitwhite'>Access unconventional showcase opportunities unique to our conference, creating genuine experiences that drive higher engagement.</h6>
                         </div>
                     </div>
                     <div class="col-sm-12 text-center">

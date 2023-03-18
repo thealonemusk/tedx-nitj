@@ -513,7 +513,6 @@ text-align: left;
   font-size: 120px;
   font-family: "HelveticaNeueLTStd", sans-serif;
   /* font-weight: 900; */
-  font-weight: 0;
   letter-spacing: -1px;
   /* margin-left: 0px; */
   margin-bottom: -45px;
@@ -525,7 +524,7 @@ text-align: left;
   font-size: 55px;
   /* height: 100%; */
   /* border: 1px solid white; */
-  font-family: "HelveticaNeueLTStd", sans-serif;
+  /* font-family: 'Plus Jakarta Sans'; */
   font-weight: 700;
   /* font-weight: 900; */
   letter-spacing: -1px;
@@ -563,6 +562,7 @@ text-align: left;
 
 .what {
   color: grey;
+  font-family: "HelveticaNeueLTStd", sans-serif;
   font-weight: 900;
 }
 
@@ -785,12 +785,12 @@ text-align: left;
 
 
 .copyright {
-  background-color: red;
+  background-color: #E62B1E;
   display: flex;
   align-items: center;
   font-family: 'Plus Jakarta Sans';
   justify-content: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .copyright p {

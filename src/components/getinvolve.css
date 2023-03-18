@@ -1,12 +1,14 @@
 #spekin {
-    background: url(./getInvolve.jpg) no-repeat center center fixed;
+    /* background: url(./getInvolve.jpg) no-repeat center center fixed; */
+    background-color: white;
+    /* color: black; */
     margin: 0;
     padding: 50px 40px;
     background-size: cover;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .whitefont {
-    color: #eee;
+    color: black;
 }
 .sym {
     margin: 60px 20px;
@@ -53,7 +55,11 @@
 .symdes p{
     /* text-align: justify; */
     font-weight: 100;
-    color: lightgray;
+    color: black;
+    opacity: 0.8;
+}
+.makeitwhite{
+    color: #fff;
 }
 .fa-wpforms:before {
     content: "\f298";

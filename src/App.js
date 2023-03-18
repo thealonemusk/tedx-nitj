@@ -52,6 +52,7 @@ function App() {
           
           <Footer />
           <Copyright /> 
+          
         </Route>
         <Route path='/conferences'>
           {/* <MainTheme /> */}
@@ -76,6 +77,7 @@ function App() {
 
 
       </Switch>
+     
 
 
 
