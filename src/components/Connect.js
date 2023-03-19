@@ -57,21 +57,21 @@ export const Connect = () => {
                     <span>
                         <TypeWriterEffect
                             textStyle={{
-                                fontFamily: 'Baloo Paaji 2, cursive',
+                                fontFamily: 'Plus Jakarta Sans',
                                 color: '#E62B1E',
                                 fontWeight: 800,
-                                fontSize: '1.2em',
+                                fontSize: '1em',
                             }}
                             startDelay={0}
                             cursorColor="#E62B1E"
                             multiText={[
                                 'ideas',
-                                'lorem',
-                                'ipsum',
+                                'innovation',
+                                'perseverance',
 
                             ]}
-                            multiTextDelay={2000}
-                            typeSpeed={20}
+                            multiTextDelay={1000}
+                            typeSpeed={10}
                             multiTextLoop = {true}
 
                         />
