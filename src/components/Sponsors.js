@@ -6,7 +6,7 @@ export const Sponsors = () => {
         <div className='sponsors__main'>
         <div className='sponsors__center'>
             <h1 className='makeitred'>Sponsors</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+            <p>Partner with us and join us on our journey to cultivate ideas and innovation and associate with a global name consistent with sparking meaningful conversations and providing a platform to ideas worth spreading. Be it brand visibility, lead generation or higher engagement among a world class speaker line-up and brilliant audience- we have you covered!</p>
         </div>
         </div>
     </div>
