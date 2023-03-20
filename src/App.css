@@ -1049,3 +1049,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   justify-content: center;
   text-align: justify;
 }
+.tedxEvents{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.tedxEventsLogo img{
+  height: 100px;
+  width: auto;
+
+}
+.learnMore{
+  padding: 10px;
+}
+/* .learnMore a{
+  text-decoration: underline;
+} */
+.fLFBYr {
+  /* width: 80%; */
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  /* margin-bottom: 30px; */
+}
