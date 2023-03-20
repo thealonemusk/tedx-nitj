@@ -18,7 +18,7 @@ export const Conference = () => {
             </div>
             <div className='conference__image text-center'>
               <h4>THEME: Reverbera<span className = "makeitred">TED</span></h4>
-              <h5>Lorem ipsum dolor</h5>
+              <h5><span className="makeitred">Ideas</span> Worth Sharing</h5>
               <h5>DATE: 15th April 2023</h5>
             </div>
           </div>

@@ -26,9 +26,9 @@ export const Footer = () => {
             <div class="col-6 col-md-2 mb-3">
               <h5>Important Links</h5>
               <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">TED</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">TEDx</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Get Involved</a></li>
+                <li className="nav-item mb-2 foot__link"><a href="#" class="nav-link p-0 text-muted ">TED</a></li>
+                <li className="nav-item mb-2 foot__link"><a href="#" class="nav-link p-0 text-muted ">TEDx</a></li>
+                <li className="nav-item mb-2 foot__link"><a href="#" class="nav-link p-0 text-muted ">Get Involved</a></li>
                 
               </ul>
             </div>

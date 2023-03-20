@@ -2,15 +2,17 @@
     height: 370px;
     width: 280px;
     border-radius: 8px;
-    perspective: 600px;
+    perspective: 1000px;
     margin: 10px;
 }
+
 .bdjKfk .card {
     height: 100%;
     width: 100%;
-    transition: all 0.25s ease 0s;
-    transform-style: preserve-3d;
+    /* transition: all 0.25s ease 0s; */
+    transition: transform 0.8s;
     transform: scale(1);
+    transform-style: preserve-3d;
     position: relative;
     display: flex;
     padding: 20px;
@@ -21,11 +23,23 @@
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
+    font-family: 'Plus Jakarta Sans';
 }
-.bdjKfk .card:hover{
+
+.bdjKfk .card.team-card {
+    transition: transform 0.25s;
+}
+
+.bdjKfk:hover .card {
     /* z-index: 2; */
-    transform: scale(1.1);
+    transform: rotateY(180deg);
 }
+
+.bdjKfk:hover .card.team-card {
+    /* z-index: 2; */
+    transform: scale(1.1)
+}
+
 .fPthUp {
     position: absolute;
     top: 0px;
@@ -33,11 +47,14 @@
     width: 100%;
     height: 100%;
     text-align: center;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
     backface-visibility: hidden;
     background-color: rgb(35, 35, 35);
     border-radius: 8px;
     padding: 33px 25px;
 }
+
 .cyGFWV {
     width: 100%;
     height: 73%;
@@ -46,21 +63,30 @@
     background-color: rgb(35, 35, 35);
     background-image: linear-gradient(transparent, transparent, rgb(35, 35, 35));
 }
+
 .fPthUp .name {
     margin-top: 18px;
     font-weight: 700;
     font-size: 21px;
 }
-.naam{
+
+.naam {
     font-family: 'Plus Jakarta Sans';
-    margin-top: 18px;
-    margin-bottom: 0;
+    font-style: normal;
     font-weight: 700;
-    font-size: 21px;
-    line-height: 1.6;
-    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    /* or 160% */
+
+
+    text-align: center;
+
+    color: #FFFFFF;
 
 }
+
 .ckPtzj {
     /* font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
     font-style: normal;
@@ -69,12 +95,21 @@
     line-height: 1.6;
     color: rgb(255, 255, 255);
 }
+
 .fPthUp .content {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 12px;
-    font-weight: 200;
-    margin-bottom: 0px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    /* or 175% */
+
+
+    text-align: center;
+
+    color: #FFFFFF;
 }
+
 .dpxoDA {
     /* font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
     font-style: normal;
@@ -83,23 +118,30 @@
     line-height: 1.6;
     color: rgb(255, 255, 255);
 }
-@media screen and (max-width: 1024px){
 
-.dpxoDA {
-    font-size: 0.8rem;
-}}
+@media screen and (max-width: 1024px) {
+
+    .dpxoDA {
+        font-size: 0.8rem;
+    }
+}
+
 svg:not(:root).svg-inline--fa {
     overflow: visible;
 }
+
 .fPthUp .flipButton {
     position: absolute;
     top: 25px;
     right: 25px;
+    display: none;
     /* color: rgb(255, 255, 255); */
 }
+
 .svg-inline--fa.fa-w-16 {
     width: 1em;
 }
+
 .svg-inline--fa {
     display: inline-block;
     font-size: inherit;
@@ -107,10 +149,11 @@ svg:not(:root).svg-inline--fa {
     /* overflow: visible; */
     vertical-align: -0.125em;
 }
-.lVWUQ {
+
+/* .card:hover .lVWUQ {
     transform: rotateY(180deg);
     align-items: flex-start;
-}
+} */
 .fPthUp {
     position: absolute;
     top: 0px;
@@ -123,18 +166,54 @@ svg:not(:root).svg-inline--fa {
     border-radius: 8px;
     padding: 33px 25px;
 }
+
+.lVWUQ {
+    /* height: 100%; */
+    transform: rotateY(180deg);
+}
+
+.authorName {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    /* line-height: 45px; */
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
 .jKtTbx {
     height: 90%;
     text-align: left;
 }
+
 .kDOQWc {
     display: flex;
     -webkit-box-pack: start;
     justify-content: flex-start;
     -webkit-box-align: center;
+    /* margin-top: 25px; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
+
+.details .kDOQWc {
+    margin-top: 25px;
+}
+
 .kDOQWc .icon {
     width: 18px;
     height: 18px;
@@ -142,6 +221,7 @@ svg:not(:root).svg-inline--fa {
     cursor: pointer;
     margin-right: 10px;
 }
+
 .svg-inline--fa {
     display: inline-block;
     font-size: inherit;
@@ -149,6 +229,7 @@ svg:not(:root).svg-inline--fa {
     /* overflow: visible; */
     vertical-align: -0.125em;
 }
+
 svg:not(:root).svg-inline--fa {
     overflow: visible;
 }

@@ -59,7 +59,7 @@ export const Theme = () => {
           </div>
         </div>
         <div className='col-lg-2 col-md-12 theme-last '>
-          <h1>REVERBERA<span className = "makeitred">TED</span></h1>
+          <h1>REVERBERA<span className = "ted">TED</span></h1>
         </div>
       </div>
     </div>

@@ -460,19 +460,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .theme-last h1 {
   font-family: "HelveticaNeueLTStd", sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 35px;
+  font-weight: 900;
+  font-size: 50px;
   line-height: 40px;
   /* identical to box height, or 160% */
 
   /* display: flex;
   align-items: center; */
   /* text-align: center; */
-  letter-spacing: 0.2em;
+  /* letter-spacing: 0.2em; */
 
   color: lightgray;
 
   transform: rotate(90deg);
+}
+.theme-last h1 span{
+ 
+
+    color: #DD352A;
+  
 }
 
 .login-main-text {
@@ -824,7 +830,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 
 
-
 .copyright {
   background-color: #E62B1E;
   display: flex;
@@ -878,6 +883,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .makeitred {
   color: #DD352A;
 }
+
 
 .dtl {
   position: absolute;
