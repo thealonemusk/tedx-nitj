@@ -12,12 +12,13 @@ html {
 
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
+  overflow-x: clip;
 }
 
 
 body {
   /* font-weight: 400; */
-  overflow-x: hidden;
+  overflow-x: clip;
   position: relative;
 
   background-color: black !important;
@@ -461,7 +462,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-family: "HelveticaNeueLTStd", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 40px;
   /* identical to box height, or 160% */
 
@@ -666,6 +667,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   padding-right: 40px;
   /* box-shadow: 2px white; */
   background: url("https://freight.cargo.site/w/1200/i/f2db8f16ac29f033480423bc1336155b00fde20482cf0a66131407504efcb0aa/black-BG.jpg") center center/cover;
+  /* overflow-x: hidden; */
 }
 
 .connect__left {
