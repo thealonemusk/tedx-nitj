@@ -5,7 +5,7 @@ const TeamCard = ({ name, position, source }) => {
         <div class="styles__CardContainer-sc-iwkek3-0 bdjKfk">
             <div class="card team-card">
                 <div class="styles__Common-sc-iwkek3-1 fPthUp">
-                    <div class="styles__ImageContainer-sc-iwkek3-3 cyGFWV" style={{ backgroundImage: `url(${source})` }}></div>
+                    <div class="styles__ImageContainer-sc-iwkek3-3 cyGFWV" style={{ backgroundImage: `url(${source}),  linear-gradient(transparent, transparent, rgb(35, 35, 35))`}}></div>
                     <p class="naam">{name}</p>
                     <p class="Para2-sc-648wid-0 dpxoDA content">
                         {position}

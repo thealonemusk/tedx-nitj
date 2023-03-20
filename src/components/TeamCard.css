@@ -60,8 +60,9 @@
     height: 73%;
     border-radius: 8px;
     background-size: cover;
+    background-position: center;
     background-color: rgb(35, 35, 35);
-    background-image: linear-gradient(transparent, transparent, rgb(35, 35, 35));
+    /* background-image: linear-gradient(transparent, transparent, rgb(35, 35, 35)); */
 }
 
 .fPthUp .name {
@@ -104,7 +105,7 @@
     line-height: 19px;
     /* or 175% */
 
-
+    margin-bottom: 4px;
     text-align: center;
 
     color: #FFFFFF;
@@ -210,8 +211,13 @@ svg:not(:root).svg-inline--fa {
     /* justify-content: center; */
 }
 
+
 .details .kDOQWc {
     margin-top: 25px;
+}
+.card.team-card .fPthUp .kDOQWc{
+    justify-content: center;
+    margin-top: 0px;
 }
 
 .kDOQWc .icon {

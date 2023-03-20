@@ -58,16 +58,18 @@
     position: sticky;
     left: 0;
     display: flex;
+
     align-items: center;
     z-index: 2;
 }
+
 .carousel__heading h3 {
     /* height: 100%; */
     font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 20px;
     /* identical to box height, or 160% */
 
     /* display: flex;
@@ -78,4 +80,9 @@
     color: #FFFFFF;
 
     transform: rotate(-90deg);
+}
+@media screen and (max-width: 550px){
+    .carousel__heading h3 {
+        font-size: 15px;
+    }
 }
