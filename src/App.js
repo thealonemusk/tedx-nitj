@@ -22,6 +22,7 @@ import { Navbaar } from './components/Navbaar';
 import NewsletterSubscribe from './components/NewsletterSubscribe';
 import { Gallery } from './components/Gallery';
 import { GetInvolved } from './components/GetInvolved';
+import { Events } from './components/Events';
 
 // import {createBrowserHistory} from 'history';
 
@@ -58,6 +59,7 @@ function App() {
           {/* <MainTheme /> */}
           <Conference />
           <Speakers/>
+          <Events/>
 
         </Route>
         <Route path='/sponsors'>

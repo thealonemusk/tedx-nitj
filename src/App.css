@@ -1049,3 +1049,44 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   justify-content: center;
   text-align: justify;
 }
+.event{
+  /* background-color: rgb(35, 35, 35); */
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.event img{
+  height: 100px;
+  width: auto;
+}
+.eRAVFL .link {
+  margin-top: 30px;
+}
+@media (max-width: 540px){
+.fLFBYr {
+    width: 80%;
+    text-align: center;
+}}
+.fLFBYr {
+  width: 80%;
+  color: white;
+  font-family: 'Helvetica';
+  margin-bottom: 30px;
+}
+@media (max-width: 1024px){
+
+.dpxoDA {
+    font-size: 0.8rem;
+}}
+.dpxoDA {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}

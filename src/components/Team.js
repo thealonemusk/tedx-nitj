@@ -23,7 +23,6 @@ export const Team = () => {
     <TeamCard name="Paras Khosla" position="Co-Founder, Senior Executive" source="https://media.licdn.com/dms/image/C4E03AQGD9TqOp4tQWQ/profile-displayphoto-shrink_800_800/0/1637514459632?e=1684368000&v=beta&t=481Wk-vt6SVoSFjnN56XSrkM9yGr45u6dbEOz_CBWwk"/>
     <TeamCard name="Aditya Anand" position="Co-Founder, Senior Executive" source="https://media.licdn.com/dms/image/C4D03AQEsirXazFW_pQ/profile-displayphoto-shrink_800_800/0/1667964628492?e=1684368000&v=beta&t=b2pPy2NFbQGqsA31oaLgSJt3N8WII9sXpe-9lhSYqyg"/>
     <TeamCard name="Vaibhav S Thatai" position="Co-Founder, Senior Executive" source="https://media.licdn.com/dms/image/C4D03AQEUgpzL1uH9GA/profile-displayphoto-shrink_800_800/0/1654277259996?e=1684368000&v=beta&t=p5E1NGDPfOGzieeaZ99cgq_SCdu4A5nP45LOz2F4gkg"/>
-    <TeamCard/>
     </div></div></div>
   )
 }
