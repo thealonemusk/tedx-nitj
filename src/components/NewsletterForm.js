@@ -2,12 +2,12 @@ import { useState } from 'react';
 // import { sanitize } from '../../../utils/miscellaneous';
 // import Loading from '../../loading';
 
-const NewsletterForm = ( { status, message, onValidated }) => {
+const NewsletterForm = ({ status, message, onValidated }) => {
 
-  const [ error, setError ] = useState(null);
-  const [ email, setEmail ] = useState(null);
-  
-// const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [email, setEmail] = useState(null);
+
+  // const [loading, setLoading] = useState(false);
 
   /**
    * Handle form submit.
@@ -18,10 +18,26 @@ const NewsletterForm = ( { status, message, onValidated }) => {
 
     setError(null);
 
-    if ( ! email ) {
-      setError( 'Please enter a valid email address' );
+    if (!email) {
+      setError('Please enter a valid email address');
       return null;
     }
+    fetch('https://tedx.cyclic.app/api/emails/create', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        email: email
+      })
+    })
+      .then(response => {
+        console.log(response)
+      })
+      .catch(error => {
+        console.log('error ', error)
+      });
+
 
     const isFormValidated = onValidated({ EMAIL: email });
 
@@ -34,7 +50,7 @@ const NewsletterForm = ( { status, message, onValidated }) => {
    *
    * @param event
    */
-  const handleInputKeyEvent = ( event ) => {
+  const handleInputKeyEvent = (event) => {
     setError(null);
     // Number 13 is the "Enter" key on the keyboard
     if (event.keyCode === 13) {
@@ -52,13 +68,13 @@ const NewsletterForm = ( { status, message, onValidated }) => {
    * @return {null|*}
    */
   const getMessage = (message) => {
-    if ( !message ) {
+    if (!message) {
       return null;
     }
     const result = message?.split('-') ?? null;
-    if ( "0" !== result?.[0]?.trim() ) {
-    //   return sanitize(message);
-    return message;
+    if ("0" !== result?.[0]?.trim()) {
+      //   return sanitize(message);
+      return message;
     }
     const formattedMessage = result?.[1]?.trim() ?? null;
     return formattedMessage ? formattedMessage : null;
@@ -68,29 +84,29 @@ const NewsletterForm = ( { status, message, onValidated }) => {
     <div className='email__section row'>
       {/* <h3 className="mb-1 uppercase font-bold">Subscribe to newsletter</h3> */}
 
-      
-          <input
-            onChange={(event) => setEmail(event?.target?.value ?? '')}
-            type="email"
-            placeholder="Enter your email"
-            className="col-md-6 col-sm-12"
-            onKeyUp={(event) => handleInputKeyEvent(event)}
-          />
-      
-        
-          <button className="btn btn-danger btn-block btn-lg col-md-6 col-sm-12" onClick={handleFormSubmit}>
-            INSPIRE ME
-          </button>
-       
+
+      <input
+        onChange={(event) => setEmail(event?.target?.value ?? '')}
+        type="email"
+        placeholder="Enter your email"
+        className="col-md-6 col-sm-12"
+        onKeyUp={(event) => handleInputKeyEvent(event)}
+      />
+
+
+      <button className="btn btn-danger btn-block btn-lg col-md-6 col-sm-12" onClick={handleFormSubmit}>
+        INSPIRE ME
+      </button>
+
 
       <div className="text-left message">
-        { 'sending' === status ? "Sending..": null }
+        {'sending' === status ? "Sending.." : null}
         {'error' === status || error ? (
           <h6
             className="text-danger"
-            dangerouslySetInnerHTML={{ __html: error || getMessage( message ) }}
+            dangerouslySetInnerHTML={{ __html: error || getMessage(message) }}
           />
-        ) : null }
+        ) : null}
         {'success' === status && 'error' !== status && !error && (
           <h6 className="text-success font-bold" dangerouslySetInnerHTML={{ __html: message }} />
         )}
