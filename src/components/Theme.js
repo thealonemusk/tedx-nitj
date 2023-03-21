@@ -7,6 +7,7 @@ import character from './character.json';
 import { Fade } from "react-awesome-reveal";
 import Reveal from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
+import { Zoom } from 'react-awesome-reveal';
 gsap.registerPlugin(ScrollTrigger);
 export const Theme = () => {
   const customAnimation = keyframes`
@@ -76,8 +77,8 @@ export const Theme = () => {
           </div>
         </div>
         
-        <div className='col-lg-2 col-md-12 theme-last '>
-          <h1>REVERBERA<span className = "ted">TED</span></h1>
+        <div className='col-lg-2 col-md-12 theme-last '><Zoom triggerOnce>
+          <h1>REVERBERA<span className = "ted">TED</span></h1></Zoom>
         </div>
       </div>
     </div>

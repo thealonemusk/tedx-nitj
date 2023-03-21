@@ -41,7 +41,7 @@ export const GetInvolved = () => {
                     </div>
                     <div class="col-sm-12 text-center">
                         {/* <h2 class="whitefont">The speaker nomination for the 13th edition of TEDxIITKharagpur are open.</h2> */}
-                        <a href="https://docs.google.com/forms/d/1Qc_ssgyXdUwleep5D7uZ-weM1nfvtP6osO6dC_rY7fI" target="_blank">
+                        <a href="https://forms.gle/jzJxevNgsrbMb4dL6" target="_blank">
                             <button class="appBtn whiteFont">Speaker details</button>
                         </a> 
                     </div>

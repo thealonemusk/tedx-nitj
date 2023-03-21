@@ -76,15 +76,17 @@
     border: none;
     color: #fff;
     padding: 10px 60px;
+    transform: scale(1);
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 2px 4px grey;
     font-size: 1.3rem;
     transition: all 0.3s ease;
 }
-/* .appBtn:hover{
+.appBtn:hover{
+    transform: scale(1.1);
 
-} */
+}
 #partin {
     margin: 0;
     padding: 70px 40px 50px 40px;

@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { Fade } from "react-awesome-reveal";
+
 import gsap from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
+
 
 export const FixedBack = () => {
 const fixedHeading = useRef(null);
@@ -36,7 +39,8 @@ const fixedHeading = useRef(null);
         <h1 style={mystyle} ref={fixedHeading}>REVERBERATED '23</h1>
       </div> */}
       <div className='heading__mobile'>
-        <h1>REVERBERA<span className="makeitred">TED</span> '23</h1>
+        <Fade direction='left'>
+        <h1>REVERBERA<span className="makeitred">TED</span> '23</h1></Fade>
         
       </div>
     </div>
