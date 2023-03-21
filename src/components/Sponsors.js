@@ -10,7 +10,7 @@ export const Sponsors = () => {
         </div>
        
         </div>
-        <a href="mailto:tednitj@nitj.ac.in" target="_blank">
+        <a href="mailto:tedxnitj@nitj.ac.in" target="_blank">
                             <button class="appBtn whiteFont">Sponsor Us</button>
                         </a>
     </div>
