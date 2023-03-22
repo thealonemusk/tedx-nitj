@@ -306,12 +306,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   justify-content: flex-start;
   align-items: end;
   height: 100vh;
+  background-color: #000;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
-  background: url(../src/components/websiteImage.png) no-repeat center center fixed;
+  background-image: url(../src/assets/img/speakesr_divider.jpg);
   /* background-color: #000; */
   /* border: 2px solid orange; */
 
   /* background-attachment: fixed; */
+}
+@media screen and (min-width:1025px) {
+  .fixedBack{
+    background-attachment: fixed;
+  }
+}
+@media screen and (max-width:1024px) {
+  .fixedBack{
+    background-position: center center;
+    background-size: cover;
+  }
+}
+@media screen and (max-width:767px) {
+  .fixedBack{
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 
@@ -328,7 +354,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 
 .heading__mobile h1 {
-  color: #1A1A1A;
+  color: white;
   font-size: 4rem;
   font-family: "HelveticaNeueLTStd", sans-serif;
   font-weight: 900;

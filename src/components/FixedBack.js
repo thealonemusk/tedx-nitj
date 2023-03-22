@@ -39,7 +39,7 @@ const fixedHeading = useRef(null);
         <h1 style={mystyle} ref={fixedHeading}>REVERBERATED '23</h1>
       </div> */}
       <div className='heading__mobile'>
-        <Fade direction='left'>
+        <Fade direction='up' cascade>
         <h1>REVERBERA<span className="makeitred">TED</span> '23</h1></Fade>
         
       </div>
