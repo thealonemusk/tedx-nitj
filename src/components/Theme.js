@@ -7,6 +7,7 @@ import character from './character.json';
 import { Fade } from "react-awesome-reveal";
 import Reveal from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
+import TypeWriterEffect from 'react-typewriter-effect';
 import { Zoom } from 'react-awesome-reveal';
 gsap.registerPlugin(ScrollTrigger);
 export const Theme = () => {
@@ -78,7 +79,26 @@ export const Theme = () => {
         </div>
         
         <div className='col-lg-2 col-md-12 theme-last '><Zoom triggerOnce>
-          <h1>REVERBERA<span className = "ted">TED</span></h1></Zoom>
+          <h1><TypeWriterEffect
+                            // textStyle={{
+                            //     fontFamily: 'Plus Jakarta Sans',
+                            //     color: '#E62B1E',
+                            //     fontWeight: 800,
+                            //     fontSize: '1em',
+                            // }}
+                            startDelay={1000}
+                            cursorColor="#E62B1E"
+                            multiText={[
+                                'REVERBERATED',
+                                'REVERBERATED'
+                                
+
+                            ]}
+                            multiTextDelay={1000}
+                            typeSpeed={1}
+                            multiTextLoop = {false}
+
+                        /></h1></Zoom>
         </div>
       </div>
     </div>

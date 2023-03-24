@@ -395,7 +395,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   /* border: 2px solid red; */
   color: #E62B1E;
   /* transform: rotate(-90deg); */
-  transform: rotate(-90deg);
+  transform: rotate(45deg);
   border-bottom: 1px solid white;
   margin-left: 50px;
   transform-origin: top left;
@@ -499,7 +499,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
   color: lightgray;
 
-  transform: rotate(90deg);
+  transform: rotate(45deg);
 }
 .theme-last h1 span{
  
@@ -588,12 +588,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .vertical-text {
   transform: rotate(-90deg);
   /* transform-origin: top left; */
-  font-size: 120px;
+  font-size: 110px;
   font-family: "HelveticaNeueLTStd", sans-serif;
   /* font-weight: 900; */
   letter-spacing: -1px;
   /* margin-left: 0px; */
-  margin-bottom: -50px;
+  margin-bottom: -45px;
 }
 
 
@@ -610,6 +610,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     font-size: 10vw;
 
     /* text-align: center; */
+  }
+}
+@media screen and (min-width:1690px) {
+  .vertical-text{
+    font-size: 100px;
+    margin-bottom: 2px;
   }
 }
 
