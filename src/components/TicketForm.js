@@ -1,12 +1,15 @@
 import React from 'react'
 import { Button, Form } from "react-bootstrap";
+import { Ticket } from 'react-bootstrap-icons';
+import { TicketDetailedFill } from 'react-bootstrap-icons';
+import { TicketPerforatedFill } from 'react-bootstrap-icons';
 function TicketForm() {
   return (
     <Form style={{background:'black'}} className='buyTicketForm'>
             <Form.Group style={{padding:'10px', display:'flex', flexFlow:'column'}}>
                 <Form.Label style={{ fontSize:'25px' }}>Ticket Fare</Form.Label>
-                <Form.Label style={{margin:' 0 10px'}}>NITJ: Rs 549</Form.Label>
-                <Form.Label style={{margin:' 0 10px'}}>NON - NITJ: Rs 799 + GST</Form.Label>
+                <Form.Label style={{margin:' 0 10px'}}><TicketDetailedFill/> NITJ: Rs 549</Form.Label>
+                <Form.Label style={{margin:' 0 10px'}}><TicketDetailedFill/> NON - NITJ: Rs 799 + GST</Form.Label>
             </Form.Group>
             <Form.Group style={{padding:'10px'}}>
                 <Form.Label style={{ fontSize:'25px' }}>Perks Included</Form.Label>
