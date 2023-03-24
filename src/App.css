@@ -321,6 +321,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
   /* background-attachment: fixed; */
 }
+.buyTicketForm{
+  font-family: 'Plus Jakarta Sans';
+}
 @media screen and (min-width:1025px) {
   .fixedBack{
     background-attachment: fixed;
