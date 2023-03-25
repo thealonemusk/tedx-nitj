@@ -412,14 +412,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 
 
+.theme-image{
+  background: url('../src/components/websiteImage.png');
 
+}
+@media screen and (max-width: 767px) {
+  .theme-image{
+    width:100vw;
+    height: 300px;
+  }
+}
 .sidenav {
   /* height: 100%; */
-  background-color: white;
   /* border: 2px solid red; */
   /* overflow-x: hidden; */
   /* margin: 50px; */
   /* padding: 100px; */
+
 }
 
 
@@ -492,7 +501,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-family: "HelveticaNeueLTStd", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 40px;
   /* identical to box height, or 160% */
 
@@ -516,6 +525,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   /* margin-top: 20%; */
   /* padding: 60px; */
   color: #fff;
+  background: url(../src/components/websiteImage.png);
 }
 
 /* .login-main-text h2{

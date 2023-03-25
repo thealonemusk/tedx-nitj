@@ -51,54 +51,56 @@ export const Theme = () => {
         <h1>REVERBERATED 2023</h1>
       </div> */}
       <div class="row">
-        <div class="col-md-6 col-sm-12">
+        
+          <div class="col-md-6 col-sm-12 theme-image">
 
 
-          <div class="sidenav">
-            <div class="login-main-text">
-              {/* <iframe src="https://embed.lottiefiles.com/animation/138377"></iframe> */}
-              <Reveal keyframes={customAnimation} triggerOnce>
+            {/* <div class="sidenav">
+            <div class="login-main-text"> */}
+            {/* <iframe src="https://embed.lottiefiles.com/animation/138377"></iframe> */}
+            {/* <Reveal keyframes={customAnimation} triggerOnce>
               <Lottie
                 animationData={character}
                 style={{ height: 500 }}
 
-              /></Reveal>
-            </div>
-          </div>
+              /></Reveal> */}
+            {/* <h1>Hello</h1> */}
+            {/* < */}
         </div>
+     
 
-        
+
         <div class="col-md-4 col-sm-12 align-self-center">
           <div class="main">
             <div class="theme-text">
-            <Fade direction='right' triggerOnce>
-              <p>The theme of our event is “ReverberaTED” which in its very essence alludes to the echoes of our thoughts, our ideas, and the stories we create while we navigate through life. Our lives might be series of fleeting moments but the footprints we leave on the sand of time are indelible. Nothing we ever think, speak, or do perishes but keeps reverberating through the universe.</p>
-            </Fade>
+              <Fade direction='right' triggerOnce>
+                <p>The theme of our event is “ReverberaTED” which in its very essence alludes to the echoes of our thoughts, our ideas, and the stories we create while we navigate through life. Our lives might be series of fleeting moments but the footprints we leave on the sand of time are indelible. Nothing we ever think, speak, or do perishes but keeps reverberating through the universe.</p>
+              </Fade>
             </div>
           </div>
         </div>
-        
+
         <div className='col-lg-2 col-md-12 theme-last '><Zoom triggerOnce>
           <h1><TypeWriterEffect
-                            // textStyle={{
-                            //     fontFamily: 'Plus Jakarta Sans',
-                            //     color: '#E62B1E',
-                            //     fontWeight: 800,
-                            //     fontSize: '1em',
-                            // }}
-                            startDelay={1000}
-                            cursorColor="#E62B1E"
-                            multiText={[
-                                'REVERBERATED',
-                                'REVERBERATED'
-                                
+            // textStyle={{
+            //     fontFamily: 'Plus Jakarta Sans',
+            //     color: '#E62B1E',
+            //     fontWeight: 800,
+            //     fontSize: '1em',
+            // }}
+            startDelay={1000}
+            cursorColor="#E62B1E"
+            multiText={[
+              'REVERBERATED',
+              'REVERBERATED'
 
-                            ]}
-                            multiTextDelay={1000}
-                            typeSpeed={1}
-                            multiTextLoop = {false}
 
-                        /></h1></Zoom>
+            ]}
+            multiTextDelay={1000}
+            typeSpeed={1}
+            multiTextLoop={false}
+
+          /></h1></Zoom>
         </div>
       </div>
     </div>
