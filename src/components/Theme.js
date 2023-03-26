@@ -10,6 +10,7 @@ import { keyframes } from "@emotion/react";
 import TypeWriterEffect from 'react-typewriter-effect';
 import { Zoom } from 'react-awesome-reveal';
 gsap.registerPlugin(ScrollTrigger);
+
 export const Theme = () => {
   const customAnimation = keyframes`
   from {
@@ -24,6 +25,9 @@ export const Theme = () => {
 `;
   const container = useRef(null);
   const themeText = useRef(null);
+  const ted = <h5 className='makeitred'>TED</h5>;
+  const reverberate = `REVERBERA`
+  console.log(ted)
   // useEffect(() => {
   //   const el = themeText.current;
   //   gsap.fromTo(el, { x: 500 }, {

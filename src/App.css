@@ -481,7 +481,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   /* height: 100%; */
   /* align-items: center; */
   color: gray;
-  padding: 34px;
+  padding: 60px;
   /* border-left: 2px solid red; */
 }
 
@@ -501,7 +501,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-family: "HelveticaNeueLTStd", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 45px;
   line-height: 40px;
   /* identical to box height, or 160% */
 
