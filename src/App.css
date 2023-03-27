@@ -123,7 +123,7 @@ nav.navbar a.navbar-brand {
   padding: 20px 20px;
   margin-bottom: 0px;
   font-size: 15px;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 .navbar img {
@@ -147,7 +147,7 @@ nav.navbar a.navbar-brand {
 
 .nav-link.navbar-link:hover,
 .nav-link.navbar-link.active {
-  border-bottom: 2px solid white;
+  /* border-bottom: 2px solid white; */
   opacity: 1;
 }
 
@@ -307,7 +307,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   align-items: end;
   height: 100vh;
   background-color: #000;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   overflow: hidden;
@@ -315,7 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     margin-top: 0px;
     margin-bottom: 0px;
 
-  background-image: url(../src/assets/img/speakesr_divider.jpg);
+  background-image: url(../src/components/Reverberated2.png) ;
   /* background-color: #000; */
   /* border: 2px solid orange; */
 
@@ -338,7 +338,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 @media screen and (max-width:767px) {
   .fixedBack{
-    background-position: bottom center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -490,10 +490,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   /* position: sticky; */
   /* right: 50px; */
   display: flex;
-  padding: 10px;
+  padding: 30px;
+
 
   align-items: center;
   justify-content: center;
+  background: url(../src/components/Reverberated.png) no-repeat center center/cover;
   /* z-index: 2; */
 }
 
@@ -503,6 +505,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-weight: 900;
   font-size: 45px;
   line-height: 40px;
+  /* padding: 5px; */
   /* identical to box height, or 160% */
 
   /* display: flex;
@@ -619,9 +622,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     font-size: 15vw;
   }
 
-  .theme-last h1{
-    transform: rotate(0deg);
-    font-size: 10vw;
+  .theme-last{
+    background: url(../src/assets/img/Reverberated-horizontal.png) no-repeat center center/cover;
 
     /* text-align: center; */
   }
