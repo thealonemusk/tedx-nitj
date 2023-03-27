@@ -19,10 +19,10 @@ export const Team = () => {
       </div>
     <div class="SpeakerCarousel__Carousel-sc-tve874-2 fRhUJv">
     
-    <TeamCard name="Sanchita Kapur" position="Founder, Licensee and Student Coordinator" source="https://media.licdn.com/dms/image/C4D03AQHCC4AXYhV6Jg/profile-displayphoto-shrink_800_800/0/1653556763108?e=1684368000&v=beta&t=qFKilql6GA31R9ZYH0q-eD1eGW1Q_xqGAMKcrYNo9x0"/>
-    <TeamCard name="Paras Khosla" position="Co-Founder, Senior Executive" source="https://media.licdn.com/dms/image/C4E03AQGD9TqOp4tQWQ/profile-displayphoto-shrink_800_800/0/1637514459632?e=1684368000&v=beta&t=481Wk-vt6SVoSFjnN56XSrkM9yGr45u6dbEOz_CBWwk"/>
-    <TeamCard name="Aditya Anand" position="Co-Founder, Senior Executive" source="https://media.licdn.com/dms/image/C4D03AQEsirXazFW_pQ/profile-displayphoto-shrink_800_800/0/1667964628492?e=1684368000&v=beta&t=b2pPy2NFbQGqsA31oaLgSJt3N8WII9sXpe-9lhSYqyg"/>
-    <TeamCard name="Vaibhav S Thatai" position="Co-Founder, Senior Executive" source="https://media.licdn.com/dms/image/C4D03AQEUgpzL1uH9GA/profile-displayphoto-shrink_800_800/0/1654277259996?e=1684368000&v=beta&t=p5E1NGDPfOGzieeaZ99cgq_SCdu4A5nP45LOz2F4gkg"/>
+    <TeamCard name="Sanchita Kapur" position="Founder, Licensee and Student Coordinator" source="https://media.licdn.com/dms/image/C4D03AQHCC4AXYhV6Jg/profile-displayphoto-shrink_800_800/0/1653556763108?e=1684368000&v=beta&t=qFKilql6GA31R9ZYH0q-eD1eGW1Q_xqGAMKcrYNo9x0" twitter="#" insta='https://instagram.com/sancheeetos?igshid=YmMyMTA2M2Y' linkedIn='https://www.linkedin.com/in/sanchitakapur/'/>
+    <TeamCard name="Paras Khosla" position="Co-Founder, Senior Executive" source="https://media.licdn.com/dms/image/C4E03AQGD9TqOp4tQWQ/profile-displayphoto-shrink_800_800/0/1637514459632?e=1684368000&v=beta&t=481Wk-vt6SVoSFjnN56XSrkM9yGr45u6dbEOz_CBWwk" twitter="#" insta='https://instagram.com/parasaemic?igshid=YmMyMTA2M2Y' linkedIn='https://www.linkedin.com/in/paras-khosla/'/>
+    <TeamCard name="Aditya Anand" position="Co-Founder, Senior Executive" source="https://media.licdn.com/dms/image/C4D03AQEsirXazFW_pQ/profile-displayphoto-shrink_800_800/0/1667964628492?e=1684368000&v=beta&t=b2pPy2NFbQGqsA31oaLgSJt3N8WII9sXpe-9lhSYqyg" twitter="#" insta='https://instagram.com/seeoutaditya?igshid=YmMyMTA2M2Y' linkedIn='https://www.linkedin.com/in/adi-19/'/>
+    <TeamCard name="Vaibhav S Thatai" position="Co-Founder, Senior Executive" source="https://media.licdn.com/dms/image/C4D03AQEUgpzL1uH9GA/profile-displayphoto-shrink_800_800/0/1654277259996?e=1684368000&v=beta&t=p5E1NGDPfOGzieeaZ99cgq_SCdu4A5nP45LOz2F4gkg" twitter="#" insta = 'https://instagram.com/vaiibhav._?igshid=YmMyMTA2M2Y'  linkedIn='https://www.linkedin.com/in/vaiibhav-thatai'/>
     </div></div></div>
   )
 }

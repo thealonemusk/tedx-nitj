@@ -743,7 +743,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   }
 }
 
-
+.bookTicketBtn{
+  text-decoration: none;
+}
 /* .connect__left_staticText{
   position: relative;
   top: 0;
