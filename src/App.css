@@ -431,7 +431,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   /* padding: 100px; */
 
 }
-
+.formGroup{
+  background: url(../src/components/ticketForm.png) no-repeat center center/cover;
+  height: 200px;
+  width: auto;
+}
 
 .main {
   /* padding: 0px 10px; */

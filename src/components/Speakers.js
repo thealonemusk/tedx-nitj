@@ -50,6 +50,7 @@ export const Speakers = () => {
 
         </div>
       </div>
+      {/* <Event/> */}
     </div>
   )
 }
