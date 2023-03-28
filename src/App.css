@@ -508,7 +508,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-family: "HelveticaNeueLTStd", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 45px;
+  display: none;
+  font-size: 40px;
   line-height: 40px;
   /* padding: 5px; */
   /* identical to box height, or 160% */
@@ -520,7 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
   color: lightgray;
 
-  transform: rotate(45deg);
+  transform: rotate(0deg);
 }
 .theme-last h1 span{
  
@@ -627,10 +628,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
     font-size: 15vw;
   }
 
-  .theme-last{
-    background: url(../src/assets/img/Reverberated-horizontal.png) no-repeat center center/cover;
+  .theme-last h1{
+    display: block;
 
     /* text-align: center; */
+  }
+  .theme-last{
+    background: none;
   }
 }
 @media screen and (min-width:1690px) {

@@ -14,7 +14,7 @@ export const Footer = () => {
             <h5>License Holder</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sanchita Kapur</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">+917905928034</a></li>
+              
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/sanchitakapur/"><img src={navIcon1} alt="" /></a>
                 <a href='mailto:sanchitak.ic.20@nitj.ac.in'><img src={navIcon2} alt="" /></a>
